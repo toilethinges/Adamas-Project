@@ -92,7 +92,6 @@ mission "Adamas w0 Research"
 	clearance `After telling the Adamas about your passengers, they quickly grant you landing privileges.`
 	waypoint Ventus
 	to offer
-		random < 50
 		not "Joining Adamas: done"
 	passengers 6
 	cargo "advanced scanners" 12
@@ -121,6 +120,7 @@ mission "Adamas w0 Research"
 	on complete
 		log "Dropped off Adamas researchers who were studying a star."
 		"assisted adamas" ++
+		"reputation: Adamas" == 500
 		payment 150000
 		dialog `The Adamas researchers thank you extensively and pay you <payment>.`
 
