@@ -745,3 +745,5 @@ planet Crozonite
 		threshold 2300
 		fleet "Large Adamas" 12
 
+planet "Rememberance Vortex"
+

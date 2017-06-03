@@ -18,7 +18,7 @@ event "war against adamas"
 		
 		
 event "cygni wisp opens"
-	system "Huma Asas Grak"
+	system "Humaver Asas Grak"
 		object
 			sprite star/nova
 			period 10
@@ -29,8 +29,8 @@ event "cygni wisp opens"
 			offset 191.403
 			
 			
-event "cygni wormhole opens"	
-	system "Huma Asas Grak"	
+event "grak wormhole opens"	
+	system "Humaver Asas Grak"	
 		object
 			sprite star/nova
 			period 10
