@@ -1,0 +1,241 @@
+# Adamas Project Copyright (c) 2016 by Cody Tompkins
+#
+# The Adamas Project is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# The Adamas Project is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+				
+mission "Adamas: Almach"
+	name "Investigate <planet>"
+	description "A man wants you to transport a very large cargo container to <destination>, beyond a wormhole."
+	cargo "very large crate" 4
+	source
+		near "Almach" 1 4
+	waypoint "Humaver Asas Grak"
+	destination "Biotite Station"
+	to offer
+		has "kestrel available"
+		"reputation: Syndicate" >= 1
+		random < 72
+	on offer
+		require "Jump Drive"
+		conversation
+			`As you are walking through the spaceport, a man standing in front of a warehouse signals you over to him. "I've got a job for you. I need you to ferry these weapons to Deadman's Cove," he says to you, opening a door and pointing at a stack of crates in the dim light.`
+			`	"Deadman's Cove?" you ask. "Isn't that a pirate planet?" He walks inside to show you the paperwork, and you follow him. He hands you a piece of paper with a few indecipherable words on it.`
+			choice
+				`	(Draw your weapon.)`
+					goto weapon
+				`	"What is this?"`
+					goto ask
+			label weapon
+			`	As soon as you put your hand down to your gun, you hear a clicking noise and everything goes black.`
+			`	Some time later, you wake up on your ship with a terrible headache no memory of the day's previous events.`
+				defer
+			label ask
+			`	The man nods to something behind you. "I need you to transport a friend of mine beyond human space," he says. "I've heard a lot about you, Captain <last>. I think the job will be pay well enough for you." He hands you a chip with the destination loaded onto it.`
+				accept
+	on accept
+		log "Picked up strange cargo container from <source>, as well as news of a wormhole near the Core."
+	on enter
+		event "cygni wormhole opens"
+	on complete
+		log "Dropped off a massive cargo container and discovered a new species, Adamas."
+		conversation
+			`You and your crew unload the crate into the back of the docking bay and you don't recieve any payment.`
+
+
+mission "Adamas Scavenger Attack"
+	name "Defend <planet>"
+	description "Defeat a Scavenger raid on <destination>."
+	minor
+	to offer
+		random < 50
+	source
+		attributes adamas
+	npc evade
+		personality staying plunders
+		government Scavenger
+		fleet "Scavenger (Adamas)"
+		fleet "Scavenger (Adamas)"
+	npc evade
+		personality staying plunders
+		government Scavenger
+		ship "Scrapper (Adamas, Needler-T)" "Aldt Unne"
+	npc
+		personality heroic staying
+		government Adamas
+		fleet "Large Adamas"
+		fleet "Small Adamas"
+		fleet "Small Adamas"
+	on offer
+		conversation
+			`As you walk through the spaceport, you hear a series of resounding clicks, and crystal shards rain down around the spaceport, fragmenting into the ground. Adamas run through alleyways towards their ships to defend <planet>. You pull over an Adamas and ask it what's going on. "Scavengers," he says, before hurrying off to join the others in orbit.`
+			choice
+				"	(Stay here until the fight is over.)"
+					defer
+				"	(Join the Adamas defense fleet.)"
+			"Gathered in the spaceport with the Adamas, you all take off together to destroy the Scavengers..."
+				launch
+	on complete
+		log "Discovered another new species, Scavengers. Very powerful, but seem to use Adamas weapons."
+		payment 300000
+		"reputation: Adamas" += 500
+		dialog "The head of the Adamas government of <planet> pays you <payment> for helping to destroy the Scavengers, and thanks you."
+
+
+mission "Adamas w0 Research"
+	name "Star Research"
+	description "Fly through the Ventus system with a team of Adamas scientists, then drop them off at <destination>."
+	source
+		attributes adamas
+	destination "Chrysoprase"
+	clearance `After telling the Adamas about your passengers, they quickly grant you landing privileges.`
+	waypoint Ventus
+	to offer
+		random < 50
+		not "Joining Adamas: done"
+	passengers 6
+	cargo "advanced scanners" 12
+	npc evade
+		system "Ventus"
+		personality waiting plunders
+		government Scavenger
+		ship "Scrapper (Adamas, Fractal)" "Aldt Unne"
+	npc
+		personality heroic staying
+		system "Ventus"
+		government Adamas
+		fleet "Small Adamas"	
+	npc
+		personality heroic staying
+		system "Capae"
+		government Adamas
+		fleet "Large Adamas"
+		fleet "Small Adamas"
+	on offer
+		dialog `A group of <bunks> Adamas scientists is looking for someone to transport them and their <cargo> through the Ventus system for important research on a strange cosmic anomaly, then drop them off on <destination>.`
+	on enter "Ventus"
+		dialog "The scientists spend a while analyzing the massive star in the center of the system, before you see a Scavenger ship lurking around it. You fire up your systems and prepare to fight."
+	on accept
+		log "Taking Adamas scientists to study a massive star."
+	on complete
+		log "Dropped off Adamas researchers who were studying a star."
+		"assisted adamas" ++
+		payment 150000
+		dialog `The Adamas researchers thank you extensively and pay you <payment>.`
+
+
+mission "Adamas Surveillance Intro"
+	name "Transport Adamas"
+	description "Visit all the Adamas planets with an Adamas passenger."
+	to offer
+		random < 70
+	source "Chrysoprase"
+	passengers 1
+	stopover "Aventurine"
+	stopover "Carodite"
+	stopover "Crozonite"
+	stopover "Biotite Station"
+	on offer
+		conversation
+			`	As you walk through the spaceport on <origin>, an Adamas flags you down. "I am looking for someone to transport me to all of the Adamas planets," it says. "I am not able to disclose the reason."`
+			choice
+				`	(Accept.)`
+				`	(Decline.)`
+					decline
+			`	You tell the Adamas that you would be glad to ferry it across space, and show it to your ship.`
+				accept
+	on complete
+		log "Dropped off an Adamas after transporting it to every planet and station in their space."
+		"assisted adamas" ++
+		payment 250000
+		dialog `You drop off the Adamas, and it pays you <payment>.`
+	
+	
+mission "Joining Adamas"
+	landing
+	name "Adamas Messsage"
+	description "Investigate a message from <destination>."
+	to offer
+		"assisted adamas" >= 2
+		has "Adamas Scavenger Attack: done"
+	source
+		government "Adamas"
+	destination "Chrysoprase"
+	on offer
+		log "The Adamas are offering to sell their freighter to me. I just need to visit <planet> and get the license."
+		conversation
+			`When you land on <origin>, you recieve a message from the Adamas government on <planet>. It reads:`
+			``
+			`Captain <last>,`
+			`	Your assistance in driving off a group of Scavengers has been noted by our militia. As a sign of thanks, we would like to give you authorization to purchase our freighters, the Vaults. Please see us at <planet> at your earliest convenience. Just tell the desk-keeper that you are there to see the Aldt Unne.`
+			`		The Aldt Unne`
+				accept
+
+
+mission "Scavenger Plot 0"
+	name "Scout Adamas space"
+	description "Patrol every western Adamas system to measure Scavenger activity."
+	landing
+	source Chrysoprase
+	destination Chrysoprase
+	waypoint Quero
+	waypoint Ventus
+	waypoint Exacuere
+	waypoint Uidisset
+	waypoint Kentae
+	waypoint Caecus
+	waypoint Ferrugo
+	waypoint Sias
+	to offer
+		has "Joining Adamas: done"
+	on offer
+		conversation
+			`You take a ride in an autonomous vehicle to the Adamas government offices on <origin>, where you tell the Adamas behind the desk that you are there to talk with Aldt Unne. You are immediately shown into his office.`
+			`	"I see that you have come," he says, and hands you an embellished document, the Vault license. "I am very glad. While you are here I would like to ask also if you would like to join us in our war against the Scavengers? Humans may be powerful allies. I fear you would have to fight often for us, for the Scavengers have been increasing their attacks drastically."`
+			choice
+				`	"I would be honored, sir."`
+					goto end
+				`	"Sorry, I can't right now."`
+					defer
+				`	"How do the Adamas know the human language?"`
+					goto language
+
+			label language
+			`	"We were in contact with humans millenia ago," he says. "Your culture interested us, so we have placed emissaries on a planet that you call Sol. We meet with them on two planets you call Deadman's Cove and Shangri-La. Now, will you join us?"`
+			choice
+				`	"I would be honored to join you."`
+					goto end
+				`	"Sorry, I'm very busy right now."`
+					defer
+
+			label end
+			`	After a short, formal speech on your responsibilties, he says, "Very good, thank you for coming. Your first assignment will be a patrol of Western space. Return here afterwards," he says, and then dismisses you.`
+				accept
+	npc evade
+		system "Ventus"
+		personality waiting plunders
+		government Scavenger
+		ship "Scrapper (Adamas, Fractal)" "Aldt Unne"
+	npc evade
+		system "Uidisset"
+		personality waiting plunders
+		government Scavenger
+		ship "Scrapper (Adamas, Fractal)" "Neos Meto"
+	npc evade
+		system "Exacuere"
+		personality waiting plunders
+		government Scavenger
+		ship "Scrapper (Adamas, Fractal)" "Milo Gano"
+	on accept
+		set "license: Vault"
+		event "small adamas outfitter chrysoprase"
+	on complete
+		log "Officially working for the Adamas. Scouted the western portion of their territory."
+		payment 50000
+		conversation
+			`You send your logs to Aldt Unne's office and recieve a payment of <payment> and a message, which reads:`
+			`	"Further assignments will be given to you in the future. Keep on your normal activity; we can contact you in even in human space."`

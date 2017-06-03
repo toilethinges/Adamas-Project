@@ -1,0 +1,185 @@
+# Copyright (c) 2016 by Cody Tompkins
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+
+phrase "friendly adamas"
+	word
+		"We "
+	word
+		"protect "
+		"defend "
+		"guard "
+		"safeguard "
+	word
+		"our "
+	word
+		"mysteries "
+		"enigmas "
+		"mysteries "
+		"secrets "
+	word
+		"closely; "
+		"carefully: "
+	word
+		"if you "
+	word
+		"destroy " 
+		"attack "
+		"loot "
+		
+	word
+		"our vessels, "
+		"our ships, "
+	word
+		"we must "
+		"we have to "
+		"we have no choice but to "
+	
+	word
+		"destroy you." 
+		"demolish you."
+		
+phrase "hostile adamas"
+	word
+		"We "
+	word
+		"told "
+		"advised "
+		"cautioned "
+	word
+		"you, "
+	word
+		"but "
+	word
+		"you "
+	word
+		"ignored " 
+		"did not heed " 
+		"scorned " 
+		"brushed off " 
+	word
+		"our "
+	word
+		"warnings, "
+		"advice, "
+	word
+		"and now we "
+	word
+		"must "
+		"have to "
+		"have no choice but to "
+	word
+		"destroy you." 
+		"demolish you."
+		
+phrase "adamas names"
+	word
+		"Crystal"
+		"Crystalline"
+		"Onyx"
+		"Bronze"
+		"Silver"
+	word
+		" Longsword"
+		" Mace"
+		" Scimitar"
+		" Claymore"
+		" Blade"
+		
+phrase "adamas names"
+	word
+		"Kind"
+		"Sympathetic"
+		"Amiable"
+		"Cordial"
+		"Clement"
+		"Unfortunate"
+	word
+		" Wanderer"
+		" Vagrant"
+		" Nomad"
+		" Ranger"
+		" Drifter"
+		
+phrase "scavenger names"
+	word
+		"Tera "
+		"Fotadehi "
+		"Elat "
+		"Neos "
+		"Aldt "
+		"Thot "
+		"Bant "
+		"Cifr "
+		"Cahb "
+		"Sias "
+	word
+		"Yarever"
+		"Yare"
+		"Obahver"
+		"Obah"
+		"Querover"
+		"Quero"
+		"Meto"
+		"Padiver"
+		"Padi"
+		"Ferk"
+		"Grak"
+		"Hydo"
+		"Hydover"
+		"Tema"
+		"Temaver"
+		"Stos"
+		"Sahp"
+		"Posi"
+		"Posiver"
+		
+phrase "hostile scavenger"
+	word
+		"We "
+	word
+		"Scavengers "
+	word
+		"will "
+	word
+		"assemble "
+		"converge "
+		"rally "
+	word
+		"upon "
+		"near "
+		"above "
+		"around "
+	word
+		"your "
+	word
+		"wreckage "
+		"wreck "
+		"ruin "
+		"derelict "
+		"debris "
+	word
+		"and "
+	word
+		"strip "
+		"loot "
+		"pirate "
+		"remove "
+		"take "
+	word
+		"your "
+	word
+		"valuables"
+		"systems"
+		"weapons"
+		"engines"
+	word
+		"!"
+		"."

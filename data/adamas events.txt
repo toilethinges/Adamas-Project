@@ -1,0 +1,116 @@
+# Adamas Project Copyright (c) 2016 by Cody Tompkins
+#
+# The Adamas Project is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# The Adamas Project is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+	
+event "peace with adamas"
+	"reputation: Adamas" = 5
+	
+	
+event "war against adamas"
+	"reputation: Adamas" = -1000
+		
+		
+event "cygni wisp opens"
+	system "Huma Asas Grak"
+		object
+			sprite star/nova
+			period 10
+		object
+			sprite planet/wisp
+			distance 2006.71
+			period 868.27
+			offset 191.403
+			
+			
+event "cygni wormhole opens"	
+	system "Huma Asas Grak"	
+		object
+			sprite star/nova
+			period 10
+		object "Rememberance Vortex"
+			sprite planet/wormhole
+			distance 2006.71
+			period 868.27
+			offset 191.403
+			
+			
+event "dust wisp opens"		
+	system Pulvis
+		object
+			sprite star/k5
+			period 10
+		object
+			sprite planet/rhea
+			distance 126.56
+			period 27.5957
+		object
+			sprite planet/cloud5
+			distance 555.2
+			period 253.554
+			object
+				sprite planet/desert4
+				distance 186
+				period 16.5782
+		object
+			sprite planet/rock13
+			distance 916.01
+			period 537.336
+		object
+			sprite planet/neptune
+			distance 1409.7
+			period 1025.86
+			object
+				sprite planet/luna
+				distance 203
+				period 14.4104
+		object
+			sprite planet/wisp
+			distance 2234.7
+			period 2047.5
+			
+			
+event "dust wormhole opens"		
+	system Pulvis
+		object
+			sprite star/k5
+			period 10
+		object
+			sprite planet/rhea
+			distance 126.56
+			period 27.5957
+		object
+			sprite planet/cloud5
+			distance 555.2
+			period 253.554
+			object
+				sprite planet/desert4
+				distance 186
+				period 16.5782
+		object
+			sprite planet/rock13
+			distance 916.01
+			period 537.336
+		object
+			sprite planet/neptune
+			distance 1409.7
+			period 1025.86
+			object
+				sprite planet/luna
+				distance 203
+				period 14.4104
+		object "Reminder Wormhole"
+			sprite planet/wormhole
+			distance 2234.7
+			period 2047.5
+			
+	
+event "small adamas outfitter chrysoprase"
+	planet "Chrysoprase"
+		outfitter "Small Adamas"
