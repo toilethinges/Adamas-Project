@@ -21,7 +21,7 @@ mission "Adamas: Almach"
 		"reputation: Syndicate" >= 1
 		random < 72
 	on offer
-		event "cygni wormhole opens"
+		event "grak wormhole opens"
 		require "Jump Drive"
 		conversation
 			`As you are walking through the spaceport, a man standing in front of a warehouse signals you over to him. "I've got a job for you. I need you to ferry these weapons to Deadman's Cove," he says to you, opening a door and pointing at a stack of crates in the dim light.`
@@ -36,10 +36,8 @@ mission "Adamas: Almach"
 			`	Some time later, you wake up on your ship with a terrible headache no memory of the day's previous events. When you look in your cargo hold, there is a large crate with a note on it, with the coordinates of the system you are supposed to deliver it to, and instructions to get there.`
 				accept
 			label ask
-			`	The man nods to something behind you. "I need you to transport a friend of mine beyond human space," he says. "I've heard a lot about you, Captain <last>. I think the job will be pay well enough for you." He hands you a chip with the destination loaded onto it.`
+			`	The man nods to something behind you. "I need you to transport a friend of mine beyond human space," he says. "I've heard a lot about you, Captain <last>. I think the job will pay well enough for you." He hands you a chip with the destination loaded onto it.`
 				accept
-	on accept
-		log "Picked up strange cargo container from <source>, as well as news of a wormhole near the Core."
 	on complete
 		log "Dropped off a massive cargo container and discovered a new species, Adamas."
 		conversation
