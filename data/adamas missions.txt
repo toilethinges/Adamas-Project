@@ -237,5 +237,5 @@ mission "Scavenger Plot 0"
 		log "Officially working for the Adamas. Scouted the western portion of their territory."
 		payment 50000
 		conversation
-			`You send your logs to Aldt Unne's office and recieve a payment of <payment> and a message, which reads:`
-			`	"Further assignments will be given to you in the future. Keep on your normal activity; we can contact you in even in human space."`
+			`You send your logs to the Aldt Unne's office and recieve a payment of <payment> and a message, which reads:`
+			`	"Further assignments will be given to you in the future. Keep on with your normal activity; we can contact you in even in human space."`
