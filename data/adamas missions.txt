@@ -19,13 +19,13 @@ mission "Adamas: Almach"
 	to offer
 		has "kestrel available"
 		"reputation: Syndicate" >= 1
-		random < 72
+		random < 62
 	on offer
 		event "grak wormhole opens"
 		require "Jump Drive"
 		conversation
 			`As you are walking through the spaceport, a man standing in front of a warehouse signals you over to him. "I've got a job for you. I need you to ferry these weapons to Deadman's Cove," he says to you, opening a door and pointing at a stack of crates in the dim light.`
-			`	"Deadman's Cove?" you ask. "Isn't that a pirate planet?" He walks inside to show you the paperwork, and you follow him. He hands you a piece of paper with a few indecipherable words on it.`
+			`	"Deadman's Cove?" you ask. "Isn't that a pirate planet?" He walks inside to show you the paperwork, and you follow him. He hands you a piece of paper with a few indecipherable marks on it.`
 			choice
 				`	(Draw your weapon.)`
 					goto weapon
@@ -33,13 +33,12 @@ mission "Adamas: Almach"
 					goto ask
 			label weapon
 			`	As soon as you put your hand down to your gun, you hear a clicking noise and everything goes black.`
-			`	Some time later, you wake up on your ship with a terrible headache no memory of the day's previous events. When you look in your cargo hold, there is a large crate with a note on it, with the coordinates of the system you are supposed to deliver it to, and instructions to get there.`
+			`	Some time later, you wake up on your ship with a terrible headache. When you look in your cargo hold, there is a large crate with a note on it, with the coordinates of the system you are supposed to deliver it to, and instructions to get there.`
 				accept
 			label ask
-			`	The man nods to something behind you. "I need you to transport a friend of mine beyond human space," he says. "I've heard a lot about you, Captain <last>. I think the job will pay well enough for you." He hands you a chip with the destination loaded onto it.`
+			`	The man nods to something behind you. "I need you to transport a friend of mine beyond human space," he says. "I've heard a lot about you, Captain <last>. I think the job will pay well enough for you." He hands you a chip with the destination loaded onto it. His expression tells you that it would be useless to argue.`
 				accept
 	on complete
-		log "Dropped off a massive cargo container and discovered a new species, Adamas."
 		conversation
 			`You and your crew unload the crate into the back of the docking bay and you don't recieve any payment.`
 
@@ -47,6 +46,7 @@ mission "Adamas: Almach"
 mission "Adamas Scavenger Attack"
 	name "Defend <planet>"
 	description "Defeat a Scavenger raid on <destination>."
+	clearance
 	minor
 	to offer
 		random < 50
@@ -77,7 +77,6 @@ mission "Adamas Scavenger Attack"
 			"Gathered in the spaceport with the Adamas, you all take off together to destroy the Scavengers..."
 				launch
 	on complete
-		log "Discovered another new species, Scavengers. Very powerful, but seem to use Adamas weapons."
 		payment 300000
 		"reputation: Adamas" += 500
 		dialog "The head of the Adamas government of <planet> pays you <payment> for helping to destroy the Scavengers, and thanks you."
@@ -115,10 +114,7 @@ mission "Adamas w0 Research"
 		dialog `A group of <bunks> Adamas scientists is looking for someone to transport them and their <cargo> through the Ventus system for important research on a strange cosmic anomaly, then drop them off on <destination>.`
 	on enter "Ventus"
 		dialog "The scientists spend a while analyzing the massive star in the center of the system, before you see a Scavenger ship lurking around it. You fire up your systems and prepare to fight."
-	on accept
-		log "Taking Adamas scientists to study a massive star."
 	on complete
-		log "Dropped off Adamas researchers who were studying a star."
 		"assisted adamas" ++
 		"reputation: Adamas" == 500
 		payment 150000
@@ -146,7 +142,6 @@ mission "Adamas Surveillance Intro"
 			`	You tell the Adamas that you would be glad to ferry it across space, and show it to your ship.`
 				accept
 	on complete
-		log "Dropped off an Adamas after transporting it to every planet and station in their space."
 		"assisted adamas" ++
 		payment 250000
 		dialog `You drop off the Adamas, and it pays you <payment>.`
@@ -163,7 +158,6 @@ mission "Joining Adamas"
 		government "Adamas"
 	destination "Chrysoprase"
 	on offer
-		log "The Adamas are offering to sell their freighter to me. I just need to visit <planet> and get the license."
 		conversation
 			`When you land on <origin>, you recieve a message from the Adamas government on <planet>. It reads:`
 			``
@@ -210,7 +204,7 @@ mission "Scavenger Plot 0"
 					defer
 
 			label end
-			`	After a short, formal speech on your responsibilties, he says, "Very good, thank you for coming. Your first assignment will be a patrol of Western space. Return here afterwards," he says, and then dismisses you.`
+			`	After a short, formal speech on your responsibilties, he says, "Very good, thank you for coming. Your first assignment will be a patrol of Western space. Return here after you have done this," he says, and then dismisses you.`
 				accept
 	npc evade
 		system "Ventus"
@@ -231,7 +225,6 @@ mission "Scavenger Plot 0"
 		set "license: Vault"
 		event "small adamas outfitter chrysoprase"
 	on complete
-		log "Officially working for the Adamas. Scouted the western portion of their territory."
 		payment 50000
 		conversation
 			`You send your logs to the Aldt Unne's office and recieve a payment of <payment> and a message, which reads:`
