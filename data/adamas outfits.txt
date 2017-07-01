@@ -309,8 +309,6 @@ outfit "Fractal Beam Turret"
 	weapon
 		sprite "projectile/2xfractal"
 			"frame rate" 60
-		"hardpoint sprite" "hardpoint/fractaltop"
-		"hardpoint offset" 5.
 		sound "fractal"
 		"hit effect" "fractalimpact"
 		"inaccuracy" .3
@@ -423,8 +421,6 @@ outfit "Shatterer"
 	weapon
 		"hit effect" "adamasanti-missile"
 		"die effect" "tiny explosion"
-		"hardpoint sprite" "hardpoint/shattertop"
-		"hardpoint offset" 5.
 		"anti-missile" 21
 		"velocity" 500
 		"lifetime" 1

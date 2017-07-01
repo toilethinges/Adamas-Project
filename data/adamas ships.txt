@@ -83,9 +83,9 @@ ship "Colossus" "Colossus (Needler)"
 
 ship "Vitreus"
 	sprite "ship/vitreus"
+	licenses
+		"Vitreus"
 	attributes
-		licenses
-			"Vitreus"
 		category "Light Warship"
 		"cost" 11200000
 		"self destruct" .25
@@ -138,9 +138,9 @@ ship "Vitreus"
 
 ship "Shard"
 	sprite "ship/shard"
+	licenses
+		"Shard"
 	attributes
-		licenses
-			"Shard"
 		category "Medium Warship"
 		"cost" 24400000
 		"self destruct" .25
@@ -194,9 +194,9 @@ ship "Shard"
 	
 ship "Colossus"
 	sprite "ship/colossus"
+	licenses
+		"Colossus"
 	attributes
-		licenses
-			"Colossus"
 		category "Heavy Warship"
 		"cost" 41900000
 		"self destruct" .25
@@ -258,9 +258,9 @@ ship "Colossus"
 	
 ship "Vault"
 	sprite "ship/vault"
+	licenses
+		"Vault"
 	attributes
-		licenses
-			"Vault"
 		category "Heavy Freighter"
 		"cost" 36300000
 		"self destruct" .25
@@ -312,9 +312,9 @@ ship "Vault"
 	
 ship "Blaze"
 	sprite "ship/blaze"
+	licenses
+		"Colossus"
 	attributes
-		licenses
-			"Colossus"
 		category "Fighter"
 		"cost" 550000
 		"self destruct" .25
@@ -353,9 +353,9 @@ ship "Blaze"
 
 ship "Amber"
 	sprite "ship/amber"
+	licenses
+		"Vault"
 	attributes
-		licenses
-			"Vault"
 		category "Drone"
 		"cost" 250000
 		"self destruct" .25
