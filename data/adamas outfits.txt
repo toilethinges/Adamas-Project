@@ -77,17 +77,17 @@ outfit "Ruby Surveyor"
 	
 outfit "Anti-Personnel Battlesuit"
 	category "Hand to Hand"
-	cost 500000
+	cost 1750000
 	thumbnail "outfit/battlesuit"
-	"capture attack" 3.5
-	description "The Adamas Anti-Personnel Battlesuit is made for clearing ships of any hostile lifeforms, without endangering any allies."
+	"capture attack" 3
+	description "The Adamas Anti-Personnel Battlesuit is made for clearing ships of any hostile lifeforms, without endangering any allies. However, they come with a high price tag."
 	
 	
 outfit "Interior Autoturret"
 	category "Hand to Hand"
 	cost 100000
 	thumbnail "outfit/autoturret"
-	"capture defense" 6.7
+	"capture defense" 85
 	description "Adamas Interior Autoturrets are a miniaturized turrets made to protect the inside of a ship from boarders."
 	
 	

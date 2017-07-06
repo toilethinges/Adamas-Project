@@ -18,7 +18,6 @@ mission "Adamas Wormhole Opens"
 	to offer
 		has "kestrel available"
 		"reputation: Syndicate" >= 1
-		random < 66
 	on offer
 		event "grak wormhole opens"
 		require "Jump Drive"

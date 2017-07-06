@@ -8,167 +8,57 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-system Caecus
-	pos 517.67 -518.04
-	government Adamas
-	habitable 625
-	link Capae
-	asteroids "small rock" 2 3.9528
-	asteroids "medium rock" 178 3.24
-	asteroids "large rock" 20 7.5168
-	asteroids "medium metal" 6 7.7112
-	asteroids "large metal" 15 8.3592
-	fleet "Small Adamas" 800
-	fleet "Large Adamas" 1250
-	fleet "Scavenger (Adamas)" 10000
-	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/ice4
-		distance 151.96
-		period 29.9719
-	object
-		sprite planet/mars
-		distance 568
-		period 216.592
-	object
-		sprite planet/forest1
-		distance 1255.64
-		period 711.898
-		object
-			sprite planet/ice7
-			distance 150
-			period 20.5761
-	object
-		sprite planet/venus
-		distance 1589.4
-		period 1013.84
-	object
-		sprite planet/gas8
-		distance 2951.49
-		period 2565.56
-		object
-			sprite planet/tethys
-			distance 176
-			period 12.4293
-		object
-			sprite planet/io
-			distance 314
-			period 29.6191
-
-system Capae
-	pos 574.7 -564.04
-	government Adamas
+system "At Andol"
+	pos 10 191
+	government Uninhabited
 	habitable 486.68
-	link Exacuere
-	link Sias
-	link Ferrugo
-	link Kentae
-	link Caecus
-	asteroids "small rock" 32 4.6306
-	asteroids "medium rock" 2 3.3124
-	asteroids "large rock" 19 4.7996
-	asteroids "medium metal" 1 2.2646
-	asteroids "large metal" 2 3.4476
-	fleet "Small Adamas" 550
-	fleet "Large Adamas" 990
+	asteroids "small rock" 17 2.028
+	asteroids "medium rock" 3 3.7752
+	asteroids "large rock" 27 2.2464
+	asteroids "small metal" 9 2.1216
+	asteroids "medium metal" 22 2.5272
+	asteroids "large metal" 66 3.432
 	fleet "Scavenger (Adamas)" 10000
 	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
 	object
-		sprite star/k0
+		sprite star/nova
 		period 10
-	object
-		sprite planet/lava4
-		distance 163.81
-		period 38.0145
-	object
-		sprite planet/ganymede
-		distance 370.06
-		period 129.076
-	object Chrysoprase
-		sprite planet/forest6
-		distance 549.47
-		period 233.536
-	object
-		sprite planet/gas2
-		distance 851.31
-		period 450.37
-	object
-		sprite planet/gas12
-		distance 3651.56
-		period 4000.88
-		object
-			sprite planet/miranda
-			distance 287
-			period 12.7705
-		object
-			sprite planet/rock0
-			distance 429
-			period 23.3384
 
-system Caseus
-	pos 660.33 -533.83
+system "Ed Andol"
+	pos 642.472 -593.806
 	government Adamas
-	habitable 425.92
-	link Padi
-	link "Yang Thot"
-	link Revinco
-	asteroids "small rock" 11 1.962
-	asteroids "medium rock" 86 0.972
-	asteroids "large rock" 12 1.206
-	asteroids "small metal" 1 2.43
-	asteroids "medium metal" 41 1.458
-	asteroids "large metal" 2 2.7
-	fleet "Small Adamas" 700
-	fleet "Large Adamas" 1200
+	habitable 1715
+	link "Fen Kthest"
+	link "Fen Ustef"
+	fleet "Small Adamas" 600
+	fleet "Large Adamas" 1050
 	fleet "Scavenger (Adamas)" 10000
 	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
 	object
-		sprite star/k5
+		sprite star/nova
 		period 10
-	object
-		sprite planet/desert1
-		distance 260.16
-		period 81.3311
-	object
-		sprite planet/gas12
-		distance 1715.35
-		period 1376.97
-		offset 198.494
-	object
-		sprite planet/ice4
-		distance 3498.01
-		period 4009.84
-		offset 267.951
-	object
-		sprite planet/gas17
-		distance 6795.5
-		period 10857.4
-		offset 292.931
+	object "Remembrance Vortex"
+		sprite planet/wormhole
+		distance 2006.71
+		period 868.27
+		offset 191.403
+	object "Dolthtleh"
+		sprite planet/station1adm
+		distance 2344.52
+		period 1096.5
 		object
-			sprite planet/miranda
-			distance 197
-			period 11.8133
-		object
-			sprite planet/dust5
-			distance 337
-			period 26.4313
-		object Crozonite
-			sprite planet/dust1
-			distance 445.486
-			period 40.172
-			offset 339.59
+			sprite planet/rock7
+			distance 224
+			period 16.7034
 
 system Exacuere
 	pos 562 -631.96
 	government Adamas
 	habitable 425.92
-	link Quero
-	link Capae
-	link Uidisset
-	link Ventus
+	link "Nes'el Thoelst"
+	link Thtleh
+	link "Fen Quatef"
+	link "Fen Kedol"
 	asteroids "small rock" 20 2.3331
 	asteroids "medium rock" 14 3.0954
 	asteroids "large rock" 2 2.9568
@@ -259,135 +149,11 @@ system "Exasir Sora"
 			distance 501
 			period 59.0274
 
-system Ferrugo
-	pos 606.3 -509.96
-	government Adamas
-	habitable 945
-	link Capae
-	asteroids "small rock" 9 3.5816
-	asteroids "medium rock" 60 2.9282
-	asteroids "large rock" 23 3.0734
-	asteroids "small metal" 5 1.5004
-	asteroids "medium metal" 127 2.3958
-	asteroids "large metal" 5 2.1296
-	fleet "Small Adamas" 700
-	fleet "Large Adamas" 1400
-	fleet "Scavenger (Adamas)" 10000
-	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
-	object
-		sprite star/g5
-		distance 33.5238
-		period 12.8173
-		offset 180
-	object
-		sprite star/m0
-		distance 65.4762
-		period 12.8173
-	object
-		sprite planet/mercury
-		distance 240.316
-		period 48.4751
-	object
-		sprite planet/cloud2
-		distance 513.206
-		period 151.28
-	object
-		sprite planet/gas11
-		distance 1366.9
-		period 657.578
-		object
-			sprite planet/dust1
-			distance 260
-			period 13.8273
-		object
-			sprite planet/dust4
-			distance 399
-			period 26.2868
-		object
-			sprite planet/rock0
-			distance 538
-			period 41.1577
-	object
-		sprite planet/gas7
-		distance 3048.26
-		period 2189.88
-		object
-			sprite planet/desert4
-			distance 218
-			period 11.4503
-		object
-			sprite planet/luna
-			distance 363
-			period 24.6031
-
-system "Humaver Asas Grak"
-	pos 10 191
-	government Uninhabited
-	habitable 486.68
-	asteroids "small rock" 17 2.028
-	asteroids "medium rock" 3 3.7752
-	asteroids "large rock" 27 2.2464
-	asteroids "small metal" 9 2.1216
-	asteroids "medium metal" 22 2.5272
-	asteroids "large metal" 66 3.432
-	fleet "Scavenger (Adamas)" 10000
-	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
-	object
-		sprite star/nova
-		period 10
-
-system Kentae
-	pos 509.33 -584.96
-	government Adamas
-	habitable 233.28
-	link Capae
-	asteroids "small rock" 6 2.604
-	asteroids "medium rock" 4 3.108
-	asteroids "large rock" 3 2.646
-	asteroids "small metal" 19 5.964
-	asteroids "medium metal" 17 2.646
-	asteroids "large metal" 6 2.1
-	fleet "Small Adamas" 800
-	fleet "Large Adamas" 1300
-	fleet "Scavenger (Adamas)" 10000
-	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
-	object
-		sprite star/m4
-		period 10
-	object
-		sprite planet/lava7
-		distance 138.89
-		period 42.8675
-	object
-		sprite planet/rock5
-		distance 317.89
-		period 148.435
-	object
-		sprite planet/uranus
-		distance 1077.14
-		period 925.826
-		object
-			sprite planet/rock7
-			distance 237
-			period 15.5882
-	object
-		sprite planet/gas11
-		distance 1941.9
-		period 2241.1
-		object
-			sprite planet/rhea
-			distance 271
-			period 14.714
-		object
-			sprite planet/desert4
-			distance 359
-			period 22.4347
-
-system Padi
+system "Fen Dol"
 	pos 744.3 -516.96
 	government Adamas
 	habitable 425.92
-	link Caseus
+	link "Fen Ustef"
 	asteroids "medium rock" 2 1.4756
 	asteroids "large rock" 1 1.9754
 	asteroids "small metal" 2 3.3796
@@ -429,118 +195,82 @@ system Padi
 		distance 2234.7
 		period 2047.5
 
-system Quero
-	pos 530.7 -669.04
+system "Fen Kedol"
+	pos 615 -660
 	government Adamas
-	habitable 8640
+	habitable 745.92
 	link Exacuere
-	asteroids "medium rock" 56 2.1112
-	asteroids "large rock" 10 2.4206
-	asteroids "small metal" 1 1.1284
-	asteroids "medium metal" 59 1.2194
-	asteroids "large metal" 5 1.547
-	fleet "Small Adamas" 750
-	fleet "Large Adamas" 1700
-	fleet "Scavenger (Adamas)" 10000
-	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
-	object
-		sprite star/b5
-		period 10
-	object
-		sprite planet/gas3
-		distance 415.36
-		period 36.4284
-	object
-		sprite planet/gas17
-		distance 1035.17
-		period 143.325
-	object
-		sprite planet/gas6
-		distance 2093.58
-		period 412.228
-		object
-			sprite planet/lava0
-			distance 318
-			period 14.4846
-
-system Revinco
-	pos 642.472 -593.806
-	government Adamas
-	habitable 1715
-	link "Yang Thot"
-	link Caseus
-	fleet "Small Adamas" 600
-	fleet "Large Adamas" 1050
-	fleet "Scavenger (Adamas)" 10000
-	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
-	object
-		sprite star/nova
-		period 10
-	object "Remembrance Vortex"
-		sprite planet/wormhole
-		distance 2006.71
-		period 868.27
-		offset 191.403
-	object "Biotite Station"
-		sprite planet/station1adm
-		distance 2344.52
-		period 1096.5
-		object
-			sprite planet/rock7
-			distance 224
-			period 16.7034
-
-system Sias
-	pos 566.67 -483.04
-	government Adamas
-	habitable 135
-	link Capae
-	asteroids "small rock" 24 1.0296
-	asteroids "medium rock" 7 2.1186
-	asteroids "large rock" 70 2.8314
-	asteroids "medium metal" 86 2.1978
-	asteroids "large metal" 1 2.277
-	fleet "Small Adamas" 1100
+	asteroids "small rock" 82 4.87
+	asteroids "small metal" 36 4.232
+	fleet "Small Adamas" 1200
 	fleet "Large Adamas" 1800
 	fleet "Scavenger (Adamas)" 10000
 	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
 	object
-		sprite star/m8
+		sprite star/w0
+		period 30
+
+system "Fen Kthest"
+	pos 729.88 -564.953
+	government Adamas
+	habitable 486.68
+	link "Ed Andol"
+	link "Fen Ustef"
+	asteroids "small rock" 17 2.028
+	asteroids "medium rock" 3 3.7752
+	asteroids "large rock" 27 2.2464
+	asteroids "small metal" 9 2.1216
+	asteroids "medium metal" 22 2.5272
+	asteroids "large metal" 66 3.432
+	fleet "Small Adamas" 450
+	fleet "Large Adamas" 900
+	fleet "Scavenger (Adamas)" 10000
+	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
+	object
+		sprite star/k0
 		period 10
 	object
-		sprite planet/lava7
-		distance 215.25
-		period 108.72
+		sprite planet/ice6
+		distance 220.25
+		period 59.2669
 	object
-		sprite planet/gas1
-		distance 920.41
-		period 961.314
+		sprite planet/gas15
+		distance 815.94
+		period 422.596
+		object
+			sprite planet/oberon
+			distance 187.051
+			period 13.4659
+			offset 51.482
+		object Carodite
+			sprite planet/desert10
+			distance 384.69
+			period 39.7158
+			offset 211.694
+	object
+		sprite planet/rock18
+		distance 1600.79
+		period 1161.29
+		offset 18.3019
+	object
+		sprite planet/gas0
+		distance 2921.8
+		period 2863.61
+		offset 3.98291
 		object
 			sprite planet/rhea
-			distance 240
-			period 14.8605
+			distance 255
+			period 11.9335
 		object
-			sprite planet/ice0
-			distance 345
-			period 25.612
-	object
-		sprite planet/gas17
-		distance 1976.57
-		period 3025.25
-		object
-			sprite planet/dust3
-			distance 220
-			period 13.9414
+			sprite planet/ice7
+			distance 424
+			period 25.5862
 		object
 			sprite planet/europa
-			distance 343
-			period 27.1403
-		object
-			sprite planet/desert4
-			distance 499
-			period 47.6238
+			distance 545
+			period 37.2865
 
-system Uidisset
+system "Fen Quatef"
 	pos 496.855 -621.17
 	government Adamas
 	habitable 1715
@@ -601,94 +331,361 @@ system Uidisset
 			distance 545
 			period 37.2865
 
-system Ventus
-	pos 615 -660
+system "Fen Ustef"
+	pos 660.33 -533.83
 	government Adamas
-	habitable 745.92
-	link Exacuere
-	asteroids "small rock" 82 4.87
-	asteroids "small metal" 36 4.232
-	fleet "Small Adamas" 1200
-	fleet "Large Adamas" 1800
+	habitable 425.92
+	link "Fen Dol"
+	link "Fen Kthest"
+	link "Ed Andol"
+	asteroids "small rock" 11 1.962
+	asteroids "medium rock" 86 0.972
+	asteroids "large rock" 12 1.206
+	asteroids "small metal" 1 2.43
+	asteroids "medium metal" 41 1.458
+	asteroids "large metal" 2 2.7
+	fleet "Small Adamas" 700
+	fleet "Large Adamas" 1200
 	fleet "Scavenger (Adamas)" 10000
 	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
 	object
-		sprite star/w0
-		period 30
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert1
+		distance 260.16
+		period 81.3311
+	object
+		sprite planet/gas12
+		distance 1715.35
+		period 1376.97
+		offset 198.494
+	object
+		sprite planet/ice4
+		distance 3498.01
+		period 4009.84
+		offset 267.951
+	object
+		sprite planet/gas17
+		distance 6795.5
+		period 10857.4
+		offset 292.931
+		object
+			sprite planet/miranda
+			distance 197
+			period 11.8133
+		object
+			sprite planet/dust5
+			distance 337
+			period 26.4313
+		object Crozonite
+			sprite planet/dust1
+			distance 443.133
+			period 39.8543
+			offset 253.413
 
-system "Yang Thot"
-	pos 729.88 -564.953
+system Kth'el
+	pos 509.33 -584.96
+	government Adamas
+	habitable 233.28
+	link Thtleh
+	asteroids "small rock" 6 2.604
+	asteroids "medium rock" 4 3.108
+	asteroids "large rock" 3 2.646
+	asteroids "small metal" 19 5.964
+	asteroids "medium metal" 17 2.646
+	asteroids "large metal" 6 2.1
+	fleet "Small Adamas" 800
+	fleet "Large Adamas" 1300
+	fleet "Scavenger (Adamas)" 10000
+	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/lava7
+		distance 138.89
+		period 42.8675
+	object
+		sprite planet/rock5
+		distance 317.89
+		period 148.435
+	object
+		sprite planet/uranus
+		distance 1077.14
+		period 925.826
+		object
+			sprite planet/rock7
+			distance 237
+			period 15.5882
+	object
+		sprite planet/gas11
+		distance 1941.9
+		period 2241.1
+		object
+			sprite planet/rhea
+			distance 271
+			period 14.714
+		object
+			sprite planet/desert4
+			distance 359
+			period 22.4347
+
+system Leh'el
+	pos 606.3 -509.96
+	government Adamas
+	habitable 945
+	link Thtleh
+	asteroids "small rock" 9 3.5816
+	asteroids "medium rock" 60 2.9282
+	asteroids "large rock" 23 3.0734
+	asteroids "small metal" 5 1.5004
+	asteroids "medium metal" 127 2.3958
+	asteroids "large metal" 5 2.1296
+	fleet "Small Adamas" 700
+	fleet "Large Adamas" 1400
+	fleet "Scavenger (Adamas)" 10000
+	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
+	object
+		sprite star/g5
+		distance 33.5238
+		period 12.8173
+		offset 180
+	object
+		sprite star/m0
+		distance 65.4762
+		period 12.8173
+	object
+		sprite planet/mercury
+		distance 240.316
+		period 48.4751
+	object
+		sprite planet/cloud2
+		distance 513.206
+		period 151.28
+	object
+		sprite planet/gas11
+		distance 1366.9
+		period 657.578
+		object
+			sprite planet/dust1
+			distance 260
+			period 13.8273
+		object
+			sprite planet/dust4
+			distance 399
+			period 26.2868
+		object
+			sprite planet/rock0
+			distance 538
+			period 41.1577
+	object
+		sprite planet/gas7
+		distance 3048.26
+		period 2189.88
+		object
+			sprite planet/desert4
+			distance 218
+			period 11.4503
+		object
+			sprite planet/luna
+			distance 363
+			period 24.6031
+
+system "Nes'el Thoelst"
+	pos 530.7 -669.04
+	government Adamas
+	habitable 8640
+	link Exacuere
+	asteroids "medium rock" 56 2.1112
+	asteroids "large rock" 10 2.4206
+	asteroids "small metal" 1 1.1284
+	asteroids "medium metal" 59 1.2194
+	asteroids "large metal" 5 1.547
+	fleet "Small Adamas" 750
+	fleet "Large Adamas" 1700
+	fleet "Scavenger (Adamas)" 10000
+	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/gas3
+		distance 415.36
+		period 36.4284
+	object
+		sprite planet/gas17
+		distance 1035.17
+		period 143.325
+	object
+		sprite planet/gas6
+		distance 2093.58
+		period 412.228
+		object
+			sprite planet/lava0
+			distance 318
+			period 14.4846
+
+system Ph'el
+	pos 517.67 -518.04
+	government Adamas
+	habitable 625
+	link Thtleh
+	asteroids "small rock" 2 3.9528
+	asteroids "medium rock" 178 3.24
+	asteroids "large rock" 20 7.5168
+	asteroids "medium metal" 6 7.7112
+	asteroids "large metal" 15 8.3592
+	fleet "Small Adamas" 800
+	fleet "Large Adamas" 1250
+	fleet "Scavenger (Adamas)" 10000
+	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/ice4
+		distance 151.96
+		period 29.9719
+	object
+		sprite planet/mars
+		distance 568
+		period 216.592
+	object
+		sprite planet/forest1
+		distance 1255.64
+		period 711.898
+		object
+			sprite planet/ice7
+			distance 150
+			period 20.5761
+	object
+		sprite planet/venus
+		distance 1589.4
+		period 1013.84
+	object
+		sprite planet/gas8
+		distance 2951.49
+		period 2565.56
+		object
+			sprite planet/tethys
+			distance 176
+			period 12.4293
+		object
+			sprite planet/io
+			distance 314
+			period 29.6191
+
+system Thtleh
+	pos 574.7 -564.04
 	government Adamas
 	habitable 486.68
-	link Revinco
-	link Caseus
-	asteroids "small rock" 17 2.028
-	asteroids "medium rock" 3 3.7752
-	asteroids "large rock" 27 2.2464
-	asteroids "small metal" 9 2.1216
-	asteroids "medium metal" 22 2.5272
-	asteroids "large metal" 66 3.432
-	fleet "Small Adamas" 450
-	fleet "Large Adamas" 900
+	link Exacuere
+	link Tlagn'el
+	link Leh'el
+	link Kth'el
+	link Ph'el
+	asteroids "small rock" 32 4.6306
+	asteroids "medium rock" 2 3.3124
+	asteroids "large rock" 19 4.7996
+	asteroids "medium metal" 1 2.2646
+	asteroids "large metal" 2 3.4476
+	fleet "Small Adamas" 550
+	fleet "Large Adamas" 990
 	fleet "Scavenger (Adamas)" 10000
 	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
 	object
 		sprite star/k0
 		period 10
 	object
-		sprite planet/ice6
-		distance 220.25
-		period 59.2669
+		sprite planet/lava4
+		distance 163.81
+		period 38.0145
 	object
-		sprite planet/gas15
-		distance 815.94
-		period 422.596
+		sprite planet/ganymede
+		distance 370.06
+		period 129.076
+	object Chrysoprase
+		sprite planet/forest6
+		distance 549.47
+		period 233.536
+	object
+		sprite planet/gas2
+		distance 851.31
+		period 450.37
+	object
+		sprite planet/gas12
+		distance 3651.56
+		period 4000.88
 		object
-			sprite planet/oberon
-			distance 187.051
-			period 13.4659
-			offset 51.482
-		object Carodite
-			sprite planet/desert10
-			distance 384.69
-			period 39.7158
-			offset 211.694
+			sprite planet/miranda
+			distance 287
+			period 12.7705
+		object
+			sprite planet/rock0
+			distance 429
+			period 23.3384
+
+system Tlagn'el
+	pos 566.67 -483.04
+	government Adamas
+	habitable 135
+	link Thtleh
+	asteroids "small rock" 24 1.0296
+	asteroids "medium rock" 7 2.1186
+	asteroids "large rock" 70 2.8314
+	asteroids "medium metal" 86 2.1978
+	asteroids "large metal" 1 2.277
+	fleet "Small Adamas" 1100
+	fleet "Large Adamas" 1800
+	fleet "Scavenger (Adamas)" 10000
+	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
 	object
-		sprite planet/rock18
-		distance 1600.79
-		period 1161.29
-		offset 18.3019
+		sprite star/m8
+		period 10
 	object
-		sprite planet/gas0
-		distance 2921.8
-		period 2863.61
-		offset 3.98291
+		sprite planet/lava7
+		distance 215.25
+		period 108.72
+	object
+		sprite planet/gas1
+		distance 920.41
+		period 961.314
 		object
 			sprite planet/rhea
-			distance 255
-			period 11.9335
+			distance 240
+			period 14.8605
 		object
-			sprite planet/ice7
-			distance 424
-			period 25.5862
+			sprite planet/ice0
+			distance 345
+			period 25.612
+	object
+		sprite planet/gas17
+		distance 1976.57
+		period 3025.25
+		object
+			sprite planet/dust3
+			distance 220
+			period 13.9414
 		object
 			sprite planet/europa
-			distance 545
-			period 37.2865
+			distance 343
+			period 27.1403
+		object
+			sprite planet/desert4
+			distance 499
+			period 47.6238
 
 planet Aventurine
 	attributes adamas "adamas industrial target" "adamas food target"
 	landscape land/admsand2
-	description `Aventurine is a wasteland of hills of coarse soil and small rocks, dotted with Adamas compounds. There is very little life on this planet, but if you encounter a creature on this planet, it is very likely to be fatal. The most popular recreational activity is hunting large snakes with stony hides that grow up to ten meters long, and blend in with the rocky terrain.`
-	spaceport `The spaceport is just a few large buildings set in the center of large rings of landing pads. Mining and utility vehicles are abundant here, and you can constantly see Adamas descending into large holes, and others coming out. Occasionally, an explosion echoes to the top of a shaft. Outside the landing pad rings are Adamas military garrisons, with private landing pads.`
+	description `Aventurine is a wasteland of hills of coarse soil and small rocks, dotted with Adamas compounds. There is very little life on this planet, but the animals that are here are very dangerous.`
+	spaceport `The spaceport is just a few large buildings set in the center of large rings of landing pads. Large trucks carrying containers drive in every direction, driving into tunnels in the ground, where underground storage facilities are situated. Outside the landing pad rings are Adamas military garrisons, with private landing pads.`
 	shipyard "Adamas Basics"
 	outfitter "Local Map"
-	"required reputation" 350
+	"required reputation" 50
 	bribe 0.9
 	security 0.9
-	tribute 5000
-		threshold 1000
-		fleet "Large Adamas" 8
 
 planet "Biotite Station"
 	attributes adamas "adamas industrial target"
@@ -697,12 +694,9 @@ planet "Biotite Station"
 	spaceport `The station's docking bays are located on the interior of its semi-circular shape, in hexagonal patterns. Ships that dock in them are tethered to each of the twelve vertices of the hexagon. The station is made of metal and crystal that is referred to by the Adamas as "recycled" metal and crystal - the biological metal and crystal which grows on Adamas, after the bodies of the dead have been melted down. This allows them to create larger and more durable structures, while saving the room which cemetaries would otherwise take up.`
 	shipyard "Adamas Basics"
 	outfitter "Local Map"
-	"required reputation" 10
+	"required reputation" 1
 	bribe 0.9
 	security 0.9
-	tribute 65000
-		threshold 4600
-		fleet "Large Adamas" 17
 
 planet Carodite
 	attributes adamas "adamas industrial target" "adamas food target"
@@ -710,12 +704,9 @@ planet Carodite
 	description `Carodite is a planet completely of rocks and sand - both of which fly at high speeds through the air, threatening to damage your ship's armor, or to maim any living thing on the surface. Most of the habitation on the planet is Adamas mining facilities buried under the sand, with hatches towering up into the air, so that they are not buried.`
 	spaceport `The spaceport is the only above ground structure on the entire planet, and for good reason - sand swirls wildly around the fortifications around the compound, and you continually hear the sound of rocks pelting the walls. The interior of the spaceport consists of tunnels leading underground to various different supply storehouses and quarters for the complex workers.`
 	outfitter "Local Map"
-	"required reputation" 250
+	"required reputation" 50
 	bribe 0.9
 	security 0.9
-	tribute 2000
-		threshold 1000
-		fleet "Large Adamas" 9
 
 planet Chrysoprase
 	attributes adamas "adamas food target"
@@ -725,12 +716,9 @@ planet Chrysoprase
 	shipyard "Adamas Colossal"
 	shipyard "Adamas Basics"
 	outfitter "Local Map"
-	"required reputation" 500
+	"required reputation" 150
 	bribe 0.9
 	security 0.9
-	tribute 50000
-		threshold 7000
-		fleet "Large Adamas" 21
 
 planet Crozonite
 	attributes adamas "adamas industrial target" "adamas food target"
@@ -738,12 +726,10 @@ planet Crozonite
 	description `Crozonite is a planet comprised of two different types of land: sand and rock. Valleys of sand cover most of the planet, frequently rent with massive canyons and colossal mountains. The main industry here is mining, because the mountains are filled with valuable ore, although some hunting is done here, too.`
 	spaceport `The spaceport is a double ring of landing pads around a mountain, with mostly-vertical elevators leading up to the mining outpost on top. From the observation deck on one of the buildings, all you can see in any direction is sand, swirling endlessly, and a single mountain standing on the horizon. The noise from the drills, even though they are deep underground, is deafening, and some kind of visible gas rises from the mining shafts.`
 	outfitter "Local Map"
-	"required reputation" 100
+	"required reputation" 50
 	bribe 0.9
 	security 0.9
-	tribute 1300
-		threshold 2300
-		fleet "Large Adamas" 12
 
 planet "Remembrance Vortex"
+	landscape ""
 

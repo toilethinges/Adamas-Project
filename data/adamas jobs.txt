@@ -14,6 +14,8 @@ mission "Adamas Cargo [0]"
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo "Adamas Trade Goods" 150 675
+	to offer
+		has "adamas jobs"
 	source
 		government "Adamas"
 	destination
@@ -27,6 +29,8 @@ mission "Adamas Cargo [1]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	to offer
+		has "adamas jobs"
 	cargo "Adamas Trade Goods" 300 475
 	source
 		government "Adamas"
@@ -42,6 +46,8 @@ mission "Adamas Bulk Cargo [0]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	to offer
+		has "adamas jobs"
 	cargo "Adamas Trade Goods" 675 2025
 	source
 		government "Adamas"
@@ -57,6 +63,8 @@ mission "Adamas Bulk Cargo [1]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	to offer
+		has "adamas jobs"
 	cargo "Adamas Trade Goods" 975 1525
 	source
 		government "Adamas"
@@ -72,6 +80,8 @@ mission "Adamas Food Delivery [0]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	to offer
+		has "adamas jobs"
 	cargo "grain" 1500
 	source "Biotite Station"
 	to offer
@@ -87,6 +97,8 @@ mission "Adamas Food Delivery [1]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	to offer
+		has "adamas jobs"
 	cargo "grain" 2000
 	source "Biotite Station"
 	to offer
@@ -102,6 +114,8 @@ mission "Adamas Food Delivery [2]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	to offer
+		has "adamas jobs"
 	cargo "grain" 3500
 	source "Biotite Station"
 	to offer
@@ -118,6 +132,8 @@ mission "Adamas Industry Delivery [0]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	to offer
+		has "adamas jobs"
 	cargo "sealed industrial crates" 1500
 	source "Chrysoprase"
 	to offer
@@ -133,6 +149,8 @@ mission "Adamas Industry Delivery [1]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	to offer
+		has "adamas jobs"
 	cargo "sealed industrial crates" 2000
 	source "Chrysoprase"
 	to offer
@@ -148,6 +166,8 @@ mission "Adamas Industry Delivery [2]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	to offer
+		has "adamas jobs"
 	cargo "sealed industrial crates" 3500
 	source "Chrysoprase"
 	to offer

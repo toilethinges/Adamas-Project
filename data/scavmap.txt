@@ -790,8 +790,8 @@ system Tiroir
 planet "Meto Obah"
 	attributes scavenger "scavenger station"
 	landscape land/station1scav
-	description `Meto Obah is the Scavengers' only inhabited stellar object, a roughly repainted and remodeled Adamas agricultural station that they captured and somehow moved here. The Scavengers have pieced together rough agricultural automatons so that they don't have to do the work themselves, and, as with all Scavengers, nothing very productive goes on here other than the robots producing food.`
-	spaceport `The interior of the station is almost exactly identical to that of other Adamas-made stations, filled with residential and agricultural areas, except that the areas normally occupied by recyclers are taken up by storage rooms holding stolen equipment. As you walk by them, the Scavengers look at you distrustfully.`
+	description `Meto Obah is the Scavengers' only inhabited stellar object, a roughly repainted and remodeled Adamas agricultural station that they captured and somehow moved here. The Scavengers have pieced together rough agricultural automatons so that they don't have to do the work themselves, and, as with all Scavengers, nothing very productive goes on here other than the automatons producing food.`
+	spaceport `The interior of the station is almost exactly identical to that of other Adamas-made stations, filled with residential and agricultural areas, except that the areas normally occupied by recyclers are taken up by storage rooms holding stolen equipment. As you walk by them, the Scavengers look at you distrustfully, and sometimes make strange hand gestures.`
 	"required reputation" 100
 	bribe 0
 	security 0.4
