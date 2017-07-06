@@ -42,7 +42,7 @@ system "Ed Andol"
 		distance 2006.71
 		period 868.27
 		offset 191.403
-	object "Dolthtleh"
+	object Dolthtleh
 		sprite planet/station1adm
 		distance 2344.52
 		period 1096.5
@@ -50,59 +50,6 @@ system "Ed Andol"
 			sprite planet/rock7
 			distance 224
 			period 16.7034
-
-system Exacuere
-	pos 562 -631.96
-	government Adamas
-	habitable 425.92
-	link "Nes'el Thoelst"
-	link Thtleh
-	link "Fen Quatef"
-	link "Fen Kedol"
-	asteroids "small rock" 20 2.3331
-	asteroids "medium rock" 14 3.0954
-	asteroids "large rock" 2 2.9568
-	asteroids "medium metal" 31 2.1252
-	asteroids "large metal" 33 3.465
-	fleet "Small Adamas" 800
-	fleet "Large Adamas" 1100
-	fleet "Scavenger (Adamas)" 10000
-	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/ganymede
-		distance 133
-		period 29.7285
-	object
-		sprite planet/gas6
-		distance 741.69
-		period 391.498
-		object
-			sprite planet/dust4
-			distance 277
-			period 11.7756
-	object
-		sprite planet/gas9
-		distance 1569.13
-		period 1204.72
-		object
-			sprite planet/io
-			distance 232
-			period 13.2502
-	object
-		sprite planet/gas1
-		distance 2867.34
-		period 2975.88
-		object
-			sprite planet/rock17
-			distance 236
-			period 14.4905
-		object
-			sprite planet/rock14
-			distance 363
-			period 27.6424
 
 system "Exasir Sora"
 	pos -12000 36000
@@ -199,7 +146,7 @@ system "Fen Kedol"
 	pos 615 -660
 	government Adamas
 	habitable 745.92
-	link Exacuere
+	link Th'el
 	asteroids "small rock" 82 4.87
 	asteroids "small metal" 36 4.232
 	fleet "Small Adamas" 1200
@@ -274,7 +221,7 @@ system "Fen Quatef"
 	pos 496.855 -621.17
 	government Adamas
 	habitable 1715
-	link Exacuere
+	link Th'el
 	asteroids "small rock" 17 2.028
 	asteroids "medium rock" 3 3.7752
 	asteroids "large rock" 27 2.2464
@@ -496,7 +443,7 @@ system "Nes'el Thoelst"
 	pos 530.7 -669.04
 	government Adamas
 	habitable 8640
-	link Exacuere
+	link Th'el
 	asteroids "medium rock" 56 2.1112
 	asteroids "large rock" 10 2.4206
 	asteroids "small metal" 1 1.1284
@@ -576,11 +523,64 @@ system Ph'el
 			distance 314
 			period 29.6191
 
+system Th'el
+	pos 562 -631.96
+	government Adamas
+	habitable 425.92
+	link "Nes'el Thoelst"
+	link Thtleh
+	link "Fen Quatef"
+	link "Fen Kedol"
+	asteroids "small rock" 20 2.3331
+	asteroids "medium rock" 14 3.0954
+	asteroids "large rock" 2 2.9568
+	asteroids "medium metal" 31 2.1252
+	asteroids "large metal" 33 3.465
+	fleet "Small Adamas" 800
+	fleet "Large Adamas" 1100
+	fleet "Scavenger (Adamas)" 10000
+	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ganymede
+		distance 133
+		period 29.7285
+	object
+		sprite planet/gas6
+		distance 741.69
+		period 391.498
+		object
+			sprite planet/dust4
+			distance 277
+			period 11.7756
+	object
+		sprite planet/gas9
+		distance 1569.13
+		period 1204.72
+		object
+			sprite planet/io
+			distance 232
+			period 13.2502
+	object
+		sprite planet/gas1
+		distance 2867.34
+		period 2975.88
+		object
+			sprite planet/rock17
+			distance 236
+			period 14.4905
+		object
+			sprite planet/rock14
+			distance 363
+			period 27.6424
+
 system Thtleh
 	pos 574.7 -564.04
 	government Adamas
 	habitable 486.68
-	link Exacuere
+	link Th'el
 	link Tlagn'el
 	link Leh'el
 	link Kth'el
@@ -687,10 +687,10 @@ planet Aventurine
 	bribe 0.9
 	security 0.9
 
-planet "Biotite Station"
+planet "Dolthtleh"
 	attributes adamas "adamas industrial target"
 	landscape land/blueglowland
-	description `Biotite Station guards the sole entry to Adamas space, the Remembrance Vortex, as it is called by the Adamas. Because only one Adamas planet is suitable for agriculture, Biotite Station was designed to hold massive districts of farmland, growing a highly adaptable food crop, which is distributed across all Adamas space. So much waste is produced and dumped, from the reactors powering the station, and from the abundant animals raised here, that the station has its own small moon orbiting it, made up entirely of this waste, and any space rocks that attempt to hit the station.`
+	description `Dolthtleh guards the sole entry to Adamas space, the Remembrance Vortex, as it is called by the Adamas. Because only one Adamas planet is suitable for agriculture, Dolthtleh was designed to hold massive districts of farmland, growing a highly adaptable food crop, which is distributed across all Adamas space. So much waste is produced and dumped, from the reactors powering the station, and from the abundant animals raised here, that the station has its own small moon orbiting it, made up entirely of this waste, and any space rocks that attempt to hit the station.`
 	spaceport `The station's docking bays are located on the interior of its semi-circular shape, in hexagonal patterns. Ships that dock in them are tethered to each of the twelve vertices of the hexagon. The station is made of metal and crystal that is referred to by the Adamas as "recycled" metal and crystal - the biological metal and crystal which grows on Adamas, after the bodies of the dead have been melted down. This allows them to create larger and more durable structures, while saving the room which cemetaries would otherwise take up.`
 	shipyard "Adamas Basics"
 	outfitter "Local Map"
