@@ -34,7 +34,7 @@ event "grak wormhole opens"
 		object
 			sprite star/nova
 			period 10
-		object "Rememberance Vortex"
+		object "Remembrance Vortex"
 			sprite planet/wormhole
 			distance 2006.71
 			period 868.27

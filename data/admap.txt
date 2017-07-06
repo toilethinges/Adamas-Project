@@ -476,7 +476,7 @@ system Revinco
 	object
 		sprite star/nova
 		period 10
-	object "Rememberance Vortex"
+	object "Remembrance Vortex"
 		sprite planet/wormhole
 		distance 2006.71
 		period 868.27
@@ -693,7 +693,7 @@ planet Aventurine
 planet "Biotite Station"
 	attributes adamas "adamas industrial target"
 	landscape land/blueglowland
-	description `Biotite Station guards the sole entry to Adamas space, the Rememberance Vortex, as it is called by the Adamas. Because only one Adamas planet is suitable for agriculture, Biotite Station was designed to hold massive districts of farmland, growing a highly adaptable food crop, which is distributed across all Adamas space. So much waste is produced and dumped, from the reactors powering the station, and from the abundant animals raised here, that the station has its own small moon orbiting it, made up entirely of this waste, and any space rocks that attempt to hit the station.`
+	description `Biotite Station guards the sole entry to Adamas space, the Remembrance Vortex, as it is called by the Adamas. Because only one Adamas planet is suitable for agriculture, Biotite Station was designed to hold massive districts of farmland, growing a highly adaptable food crop, which is distributed across all Adamas space. So much waste is produced and dumped, from the reactors powering the station, and from the abundant animals raised here, that the station has its own small moon orbiting it, made up entirely of this waste, and any space rocks that attempt to hit the station.`
 	spaceport `The station's docking bays are located on the interior of its semi-circular shape, in hexagonal patterns. Ships that dock in them are tethered to each of the twelve vertices of the hexagon. The station is made of metal and crystal that is referred to by the Adamas as "recycled" metal and crystal - the biological metal and crystal which grows on Adamas, after the bodies of the dead have been melted down. This allows them to create larger and more durable structures, while saving the room which cemetaries would otherwise take up.`
 	shipyard "Adamas Basics"
 	outfitter "Local Map"
@@ -745,5 +745,5 @@ planet Crozonite
 		threshold 2300
 		fleet "Large Adamas" 12
 
-planet "Rememberance Vortex"
+planet "Remembrance Vortex"
 
