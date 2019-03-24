@@ -39,6 +39,12 @@ event "andol wormhole opens"
 			distance 2006.71
 			period 868.27
 			offset 191.403
+	system "Ed Andol"
+		object "Remembrance Vortex"
+			sprite planet/wormhole
+			distance 2006.71
+			period 868.27
+			offset 191.403
 			
 			
 event "dust wisp opens"		
