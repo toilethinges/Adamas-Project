@@ -13,15 +13,16 @@ mission "Adamas Wormhole Opens"
 	invisible
 	minor
 	description "Opens the Adamas wormhole - you shouldn't be seeing this."
-	waypoint "Humaver Asas Grak"
+	waypoint "At Andol"
 	destination "Maker"
 	to offer
 		has "kestrel available"
 		"reputation: Syndicate" >= 1
 	on offer
-		event "grak wormhole opens"
+		event "andol wormhole opens"
 		require "Jump Drive"
 		fail
+		
 		
 mission "First Contact: Adamas"
 	landing

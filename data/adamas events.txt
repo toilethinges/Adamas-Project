@@ -29,8 +29,8 @@ event "cygni wisp opens"
 			offset 191.403
 			
 			
-event "grak wormhole opens"	
-	system "Humaver Asas Grak"	
+event "andol wormhole opens"	
+	system "At Andol"	
 		object
 			sprite star/nova
 			period 10
