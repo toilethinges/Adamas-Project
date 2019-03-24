@@ -8,105 +8,169 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+
 phrase "friendly adamas"
 	word
 		"We "
 	word
-		"protect "
-		"defend "
-		"guard "
-		"safeguard "
+		"do not"
+		"will not"
+		"cannot"
+	word
+		" "
+	word
+		"tolerate"
+		"permit"
+		"allow"
+	word
+		" "
+	word
+		"your"
+		"any"
+	word
+		" "
+	word
+		"trangressions"
+		"offenses"
+		"desecrations"
+		"violations"
+		"wickedness"
+		"dishonesty"
+	word
+		" "
+	word
+		"in"
+		"inside"
+		"near"
+		"within"
+	word
+		" "
 	word
 		"our "
 	word
-		"mysteries "
-		"enigmas "
-		"mysteries "
-		"secrets "
+		"homes"
+		"home"
+		"space"
+		"territory"
+		"influence"
+		"sovereignty"
 	word
-		"closely; "
-		"carefully: "
-	word
-		"if you "
-	word
-		"destroy " 
-		"attack "
-		"loot "
-		
-	word
-		"our vessels, "
-		"our ships, "
-	word
-		"we must "
-		"we have to "
-		"we have no choice but to "
-	
-	word
-		"destroy you." 
-		"demolish you."
+		"."
+		"!"
 		
 phrase "hostile adamas"
 	word
 		"We "
 	word
-		"told "
-		"advised "
-		"cautioned "
+		"cautioned"
+		"warned"
 	word
-		"you, "
+		" you, but "
 	word
-		"but "
+		"our"
+		"the"
+	word
+		" "
+	word
+		"warnings"
+		"threats"
+		"advice"
+	word
+		" "
+	word
+		"went unheard"
+		"went unheeded"
+		"was scorned"
+	word
+		", and"
+	word
+		" "
+		" now "
 	word
 		"you "
 	word
-		"ignored " 
-		"did not heed " 
-		"scorned " 
-		"brushed off " 
+		"must"
+		"will"
+		"need to"
+		"are to"
+		"cannot help but"
 	word
-		"our "
+		" "
 	word
-		"warnings, "
-		"advice, "
+		"destroy"
+		"eliminate"
+		"be rid of"
+		"crush"
 	word
-		"and now we "
+		" "
 	word
-		"must "
-		"have to "
-		"have no choice but to "
+		"you"
 	word
-		"destroy you." 
-		"demolish you."
-		
+		"."
+		"!"
+
 phrase "adamas names"
 	word
-		"Crystal"
-		"Crystalline"
-		"Onyx"
-		"Bronze"
-		"Silver"
+		"At"
+		"Fen"
+		"Ed"
 	word
-		" Longsword"
-		" Mace"
-		" Scimitar"
-		" Claymore"
-		" Blade"
-		
+		"Phest"
+		"Sudol"
+		"Kthest"
+		"Kedol"
+		"Andol"
+		"Antef"
+		"Ustef"
+	word
+		"Thtleh"
+		"Thtleh'el"
+		"Leh"
+		"Leh'el"
+		"Dolthtleh"
+		"Kth"
+		"Kth'el"
+		"Tlagn"
+		"Tlagn'el"
+		"Nes"
+		"Nes'el"
+		"Thoelst"
+		"Thoelst'el"
+		"Steleh"
+		"Steleh'el"
+
 phrase "adamas names"
 	word
-		"Kind"
-		"Sympathetic"
-		"Amiable"
-		"Cordial"
-		"Clement"
-		"Unfortunate"
+		"Intercepted"
+		"Intercepting"
+		"Divided"
+		"Dividing"
+		"Exchange"
+		"Exchanged"
+		"Exchanging"
+		"Burnt"
+		"Burning"
+		"Moved"
+		"Moving"
+		"Pillage"
+		"Pillaged"
+		"Pillaging"
 	word
-		" Wanderer"
-		" Vagrant"
-		" Nomad"
-		" Ranger"
-		" Drifter"
-		
+		"Flesh"
+		"Fleshes"
+		"Stone"
+		"Stones"
+		"Ship"
+		"Friend"
+		"Friends"
+		"Stranger"
+		"Strangers"
+		"Follower"
+		"Priest"
+		"God"
+		"Gods"
+
+
 phrase "hostile nes'el thoelst"
 	word
 		"Fen"
@@ -120,7 +184,6 @@ phrase "hostile nes'el thoelst"
 		" Thoelst"
 	word
 		"!"
-		"?"
 		"."
 		
 phrase "scavenger names"
