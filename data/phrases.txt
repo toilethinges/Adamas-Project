@@ -155,6 +155,8 @@ phrase "adamas names"
 		"Pillaged"
 		"Pillaging"
 	word
+		" "
+	word
 		"Flesh"
 		"Fleshes"
 		"Stone"
