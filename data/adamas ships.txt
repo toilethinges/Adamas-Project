@@ -88,36 +88,31 @@ ship "Vitreus"
 			"Vitreus"
 		category "Light Warship"
 		"cost" 11200000
-		"self destruct" .25
-		"shields" 20800
-		"hull" 3750
-		"required crew" 10
-		"bunks" 22
+		"shields" 8500
+		"hull" 12600
+		"required crew" 9
+		"bunks" 12
 		"mass" 130
-		"energy generation" .1
 		"drag" 3.7
 		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 7
-		"outfit space" 500
-		"weapon capacity" 200
-		"engine capacity" 70
+		"outfit space" 307
+		"weapon capacity" 105
+		"engine capacity" 80
 		weapon
 			"blast radius" 322
 			"shield damage" 1200
 			"hull damage" 700
 			"hit force" 2080
 	outfits
-		"Fractal Beam" 2
-		"Needler" 2
-		"Adamas Onyx Core"
+		"Needler" 4
 		"Adamas Amethyst Core"
 		"A.S.R. Mk I"
-		"Massive Heat Disperser"
 		"Miniature Heat Disperser"
 		"Adamas Amethyst Thruster"
 		"Amethyst Reverse Thruster"
-		"Adamas Onyx Steering"
+		"Adamas Amethyst Steering"
 		"Jump Drive"
 		"Interior Autoturret" 10
 		"Needle Shard" 1600
@@ -149,7 +144,6 @@ ship "Shard"
 		"required crew" 34
 		"bunks" 78
 		"mass" 440
-		"energy generation" .1
 		"drag" 8.3
 		"heat dissipation" .6
 		"fuel capacity" 500
@@ -205,7 +199,6 @@ ship "Colossus"
 		"required crew" 28
 		"bunks" 195
 		"mass" 950
-		"energy generation" .1
 		"drag" 20.1
 		"heat dissipation" .8
 		"fuel capacity" 800
@@ -269,7 +262,6 @@ ship "Vault"
 		"required crew" 5
 		"bunks" 30
 		"mass" 620
-		"energy generation" .1
 		"drag" 8.4
 		"heat dissipation" .7
 		"ramscoop" 13
@@ -318,17 +310,24 @@ ship "Blaze"
 		category "Fighter"
 		"cost" 550000
 		"self destruct" .25
-		"shields" 2750
-		"hull" 1500
+		"shields" 1300
+		"hull" 3000
 		"required crew" 1
 		"bunks" 1
-		"mass" 70
-		"energy generation" .1
-		"drag" 2.2
+		"mass" 90
+		"drag" 1.8
+		"energy generation" 4.8
+		"energy capacity" 300
 		"heat dissipation" .8
-		"outfit space" 142
-		"weapon capacity" 28
-		"engine capacity" 50
+		"thrust" 18.0
+		"thrusting energy" 2.2
+		"thrusting heat" 2.9
+		"turn" 337
+		"turning energy" 0.5
+		"turning heat" 1.4
+		"outfit space" 42
+		"weapon capacity" 32
+		"engine capacity" 0
 		weapon
 			"blast radius" 45
 			"shield damage" 300
@@ -337,17 +336,13 @@ ship "Blaze"
 	outfits
 		"Needler"
 		"Needle Shard" 800
-		"Adamas Amethyst Thruster"
-		"Adamas Amethyst Steering"
-		"Interior Autoturret"
 		"Ruby Surveyor"
-		"Miniature Heat Disperser"
-		"Adamas Amethyst Core"
+		"Interior Autoturret"
 	engine 0 27
 	gun 17 -17
 	gun -17 -17
 	explode "medium explosion" 4
-	description "The Blaze is a tiny, but powerful, Adamas fighter, equipped with a Needler, and only used in the Colossus."
+	description "The Blaze is a tiny but powerful Adamas fighter, equipped with a Needler and only used in the Colossus."
 	
 # The Amber - Adamas Drone
 
@@ -359,24 +354,27 @@ ship "Amber"
 		category "Drone"
 		"cost" 250000
 		"self destruct" .25
-		"shields" 1750
+		"shields" 750
 		"automaton" 1
-		"hull" 100
-		"mass" 30
+		"hull" 2200
+		"mass" 20
 		"drag" 0.8
 		"energy generation" 2.6
-		"energy capacity" 425
+		"energy capacity" 200
 		"heat dissipation" .9
-		"outfit space" 74
-		"weapon capacity" 28
-		"engine capacity" 28
+		"thrust" 9.0
+		"thrusting energy" 1.1
+		"thrusting heat" 2.3
+		"turn" 337
+		"turning energy" 0.5
+		"turning heat" 1.4
+		"outfit space" 30
+		"weapon capacity" 27
+		"engine capacity" 0
 	outfits
 		"Needler"
 		"Needle Shard" 800
-		"Adamas Aerugite Thruster"
-		"Adamas Amethyst Steering"
 		"Ruby Surveyor"
-		"Miniature Heat Disperser"
 	engine 4 23
 	engine -4 23
 	gun 0 -23
