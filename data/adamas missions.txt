@@ -19,7 +19,7 @@ mission "Adamas Wormhole Opens"
 		has "kestrel available"
 		"reputation: Syndicate" >= 1
 	on offer
-		event "andol wormhole opens"
+		event "at andol wormhole opens"
 		require "Jump Drive"
 		fail
 		
