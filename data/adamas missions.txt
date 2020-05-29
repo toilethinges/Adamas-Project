@@ -11,7 +11,6 @@
 mission "Adamas Wormhole Opens"
 	name "Investigate wormhole"
 	invisible
-	minor
 	description "Opens the Adamas wormhole - you shouldn't be seeing this."
 	waypoint "At Andol"
 	destination "Maker"
@@ -19,9 +18,10 @@ mission "Adamas Wormhole Opens"
 		has "kestrel available"
 		"reputation: Syndicate" >= 1
 	on offer
-		event "at andol wormhole opens"
-		require "Jump Drive"
-		fail
+		event "andol wormhole opens"
+		event "small adamas outfitter chrysoprase" 70
+		event "dust wormhole opens" 30
+		event "cygni wisp opens" 25
 		
 		
 mission "First Contact: Adamas"
