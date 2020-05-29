@@ -18,8 +18,8 @@ system "At Andol"
 	asteroids "small metal" 9 2.1216
 	asteroids "medium metal" 22 2.5272
 	asteroids "large metal" 66 3.432
-	fleet "Scavenger (Adamas)" 10000
-	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
+	fleet "Scavenger (Adamas)" 5000
+	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 10000
 	object
 		sprite star/nova
 		period 10
@@ -73,11 +73,6 @@ system "Exasir Sora"
 			sprite planet/rock7
 			distance 318
 			period 18.7033
-	object "Reminder Vortex"
-		sprite planet/wormhole
-		distance 1838.67
-		period 1762.95
-		offset 359.073
 		object
 			sprite planet/dust0
 			distance 211
@@ -144,8 +139,8 @@ system "Fen Kedol"
 	link Th'el
 	asteroids "small rock" 82 4.87
 	asteroids "small metal" 36 4.232
-	fleet "Small Adamas" 1200
-	fleet "Large Adamas" 1800
+	fleet "Small Adamas" 12000
+	fleet "Large Adamas" 18000
 	fleet "Scavenger (Adamas)" 10000
 	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 20000
 	object
@@ -724,7 +719,4 @@ planet Crozonite
 	"required reputation" 50
 	bribe 0.9
 	security 0.9
-
-planet "Remembrance Vortex"
-	landscape ""
 
