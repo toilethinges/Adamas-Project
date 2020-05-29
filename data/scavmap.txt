@@ -66,6 +66,8 @@ system "Aldt Bant"
 			distance 536
 			period 36.3667
 
+
+
 system "Badi Bant"
 	pos -12163 35905.5
 	government Scavenger
@@ -683,7 +685,6 @@ system Mare
 		sprite planet/wormhole
 		distance 1838.67
 		period 1762.95
-		offset 359.073
 		object
 			sprite planet/dust0
 			distance 211
