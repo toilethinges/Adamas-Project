@@ -36,10 +36,9 @@ ship "Scrapper"
 		"Dwarf Core"
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
-		"Intrusion Countermeasures" 100
-		"Pug Biodefenses" 20
 		"X1050 Ion Engines"
 		"Jump Drive"
+		"Pug Biodefenses" 20
 
 	gun 47 -206.5 
 	gun 58 -206.5 
@@ -67,7 +66,6 @@ ship "Scrapper" "Scrapper (Human, Heavy Lasers)"
 		"Heavy Laser Turret" 2
 		"LP144a Battery Pack"
 		Ramscoop
-		"Intrusion Countermeasures" 100
 		"Heavy Laser" 2
 		"Heavy Anti-Missile Turret" 2
 		"Armageddon Core"
@@ -81,23 +79,20 @@ ship "Scrapper" "Scrapper (Human, Blaster)"
 		"X2200 Ion Steering"
 		"X3200 Ion Steering"
 		"Liquid Nitrogen Cooler"
-		"Intrusion Countermeasures" 100
 		"Dwarf Core"
 		"Heavy Anti-Missile Turret"
 		"Quad Blaster Turret" 3
 		"LP072a Battery Pack"
 		"Fission Reactor"
 		"Liquid Helium Cooler"
-		"Pug Biodefenses" 20
 		"Gatling Gun Ammo" 6000
 		"Gatling Gun" 2
+		"Pug Biodefenses" 20
 		
 ship "Scrapper" "Scrapper (Adamas, Fractal)"
 	outfits
 		"Jump Drive"
 		"Mass Expansion" 7
-		"Intrusion Countermeasures" 100
-		"Pug Biodefenses" 20
 		"Adamas Amethyst Core"
 		"Fractal Beam" 2
 		"Adamas Ruby Steering"
@@ -109,18 +104,18 @@ ship "Scrapper" "Scrapper (Adamas, Fractal)"
 		"A.S.R. Mk II"
 		"Massive Heat Disperser" 3
 		"A.S.R. Mk III"
+		"Intrusion Countermeasures" 100
 	turret "Fractal Beam Turret"
 	turret "Fractal Beam Turret"
 	turret "Shatterer"
 	turret "Shatterer"
 
 ship "Scrapper" "Scrapper (Adamas, Needler-T)"
-	outfits		
-		"Intrusion Countermeasures" 100
-		"Pug Biodefenses" 20
+	outfits	
 		"Ruby Surveyor" 1
 		"Adamas Ruby Core"
 		"A.S.R. Mk II"
+		"Jump Drive"
 		"A.S.R. Mk III"
 		"Massive Heat Disperser" 2
 		"Fractal Beam" 2
@@ -130,22 +125,22 @@ ship "Scrapper" "Scrapper (Adamas, Needler-T)"
 		Shatterer
 		"Adamas Ruby Steering"
 		"Adamas Ruby Thruster"
+		"Intrusion Countermeasures" 100
 
 ship "Scrapper" "Scrapper (Quarg, Ultimate)"
 	outfits		
 		"Mass Expansion" 7
 		"Jump Drive"
-		"Pug Biodefenses" 20
 		"Thruster (Stellar Class)"
 		"Steering (Comet Class)"
-		"Intrusion Countermeasures" 100
 		"Steering (Planetary Class)"
 		"Nanotech Battery"
 		"Quantum Shield Generator"
 		"Quarg Skylance" 3
 		"Massive Heat Disperser" 3
 		Shatterer
-		"Adamas Ruby Core" 2
+		"Antimatter Core"
+		"Intrusion Countermeasures" 100
 		
 fleet "Scavenger (Adamas)"
 	government "Scavenger"
