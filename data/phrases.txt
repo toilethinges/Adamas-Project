@@ -8,6 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+
 phrase "friendly adamas"
 	word
 		"We "
@@ -114,6 +115,9 @@ phrase "adamas names"
 		"Fen"
 		"Ed"
 	word
+		" "
+		""
+	word
 		"Phest"
 		"Sudol"
 		"Kthest"
@@ -121,6 +125,9 @@ phrase "adamas names"
 		"Andol"
 		"Antef"
 		"Ustef"
+	word
+		" "
+		""
 	word
 		"Thtleh"
 		"Thtleh'el"
