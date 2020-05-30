@@ -705,6 +705,8 @@ planet Chrysoprase
 	spaceport `The spaceport is filled with autonomous vehicles loading and unloading cargo from Adamas freighters. You are made to land on the east side of the spaceport, called the Foreigner's District. The spaceport spreads out to three directions of you, in a seemingly perfect grid of buildings and landing pads. Signs in clear human writing tell what each building is. Directly across the street from your landing pad is a large 'Human Museum,' featuring countless human collectables from a millenia ago.`
 	shipyard "Adamas Colossal"
 	shipyard "Adamas Basics"
+	outfitter "Adamas Colossal"
+	outfitter "Small Adamas"
 	outfitter "Local Map"
 	"required reputation" 150
 	bribe 0.9
