@@ -12,9 +12,9 @@ outfit "Miniature Heat Disperser"
 	category "Systems"
 	cost 375000
 	thumbnail "outfit/miniatureheatdisperser"
-	"mass" 12
-	"outfit space" -12
-	"cooling" 19
+	"mass" 24
+	"outfit space" -24
+	"cooling" 55
 	"ramscoop" 1
 	description "This coolant system is made for Adamas ships. It produces a small amount of hyperspace fuel, as well as significantly cooling your ship."
 	
@@ -23,9 +23,9 @@ outfit "Massive Heat Disperser"
 	category "Systems"
 	cost 950000
 	thumbnail "outfit/massiveheatdisperser"
-	"mass" 20
-	"outfit space" -20
-	"cooling" 37
+	"mass" 40
+	"outfit space" -40
+	"cooling" 96
 	"ramscoop" 3
 	description "The Adamas need powerful cooling systems for their larger ships, because of their massive weapon and engine systems. They've also found a way to efficiently produce hyperspace fuel in their coolant systems without a drastic size increase."
 	
@@ -72,35 +72,35 @@ outfit "Ruby Surveyor"
 	"outfit scan" 700
 	"cargo scan" 650
 	"atmosphere scan" 200
-	description ""
+	description "The Adamas Ruby Surveyor is a powerful, long ranged scanner. So powerful, in fact, that smuggling has practically gone out of existence in Adamas space."
 	
 	
 outfit "Anti-Personnel Battlesuit"
 	category "Hand to Hand"
 	cost 1750000
 	thumbnail "outfit/battlesuit"
-	"capture attack" 3
-	description "The Adamas Anti-Personnel Battlesuit is made for clearing ships of any hostile lifeforms without endangering any allies. However, they come with a high price tag."
+	"capture attack" 10
+	description "The Adamas Anti-Personnel Battlesuit is made for clearing ships of any hostile lifeforms, without endangering any allies. However, they come with a high price tag."
 	
 	
 outfit "Interior Autoturret"
 	category "Hand to Hand"
 	cost 100000
 	thumbnail "outfit/autoturret"
-	"capture defense" 85
-	description "Adamas Interior Autoturrets are miniaturized turrets made to protect the inside of a ship from boarders."
+	"capture defense" 50
+	description "Adamas Interior Autoturrets are a miniaturized turrets made to protect the inside of a ship from boarders."
 	
 	
 outfit "Adamas Amethyst Core"
 	category "Power"
 	cost 7000000
 	thumbnail "outfit/amethystcore"
-	"mass" 48
-	"outfit space" -48
-	"energy generation" 10.4
-	"heat generation" 27.56
-	"energy capacity" 200
-	description "Amethyst Core"
+	"mass" 35
+	"outfit space" -35
+	"energy generation" 9.4
+	"heat generation" 38.6
+	"energy capacity" 500
+	description "The Amethyst Core is the smallest of Adamas cores. It generates around twice as much power as a comparable-sized human reactor, but produces nearly three times the heat."
 
 	
 outfit "Adamas Onyx Core"
@@ -163,27 +163,26 @@ outfit "Adamas Amethyst Steering"
 	category "Engines"
 	"cost" 440000
 	thumbnail "outfit/amethyststeering"
-	"mass" 23
-	"outfit space" -23
-	"engine capacity" -23
-	"turn" 760
+	"mass" 17
+	"outfit space" -17
+	"engine capacity" -17
+	"turn" 337
 	"turning energy" 0.5
 	"turning heat" 1.4
-	description "Amethyst Steering."
+	description "Amethyst Steering is the tiniest of all Adamas steering, made for Adamas fighters and drones."
 
 	
 outfit "Amethyst Reverse Thruster"
 	category "Engines"
 	"cost" 600000
 	thumbnail "outfit/amethystreverse"
-	"mass" 32
-	"outfit space" -32
-	"weapon capacity" -12
-	"engine capacity" -20
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
 	"reverse thrust" 15.2
 	"reverse thrusting energy" 5.3
 	"reverse thrusting heat" 11.2
-	description "Amethyst Reverse Thrusters."
+	description "Amethyst Reverse Thrusters are never used in any ship other than the Vitreus, due to its small size. If drones or fighters were capable of hyperspace, this is likely what they would use."
 	
 
 outfit "Adamas Onyx Thruster"
@@ -295,7 +294,7 @@ outfit "Fractal Beam"
 		"ion damage" .07
 		"burst count" 45
 		"burst reload" 1
-	description "The Fractal Beam was a weapon derived from millennia of studying the artificial star of Fen Kedol. It is focused through a lens made from crystalline Adamas flesh."
+	description "The Fractal Beam is an incredibly powerful gun which operates by firing a small, deadly laser through a biological magnifier crystal, resulting in a powerful stream of energy, burning through an enemy ship and disrupting electronics."
 
 	
 outfit "Fractal Beam Turret"
@@ -331,10 +330,10 @@ outfit "Fractal Beam Turret"
 	
 outfit "Needle Shard"
 	category "Ammunition"
-	cost 85
+	cost 50
 	thumbnail "outfit/needle"
 	"needle capacity" -1
-	"mass" .01
+	"mass" .02
 	description "A Needle Shard is ammunition for the Needler; without a Needler to store them in, you cannot purchase or use Needle Shards. Each gun stores 800, and each turret stores 1750."
 
 	
@@ -342,9 +341,9 @@ outfit "Needler"
 	category "Secondary Weapons"
 	cost 800000
 	thumbnail "outfit/needler"
-	"mass" 18
-	"outfit space" -22
-	"weapon capacity" -22
+	"mass" 20
+	"outfit space" -28
+	"weapon capacity" -28
 	"gun ports" -1
 	"needle capacity" 400
 	weapon
@@ -356,22 +355,22 @@ outfit "Needler"
 		"inaccuracy" 15
 		"velocity" 13
 		"lifetime" 900
-		"reload" 12
-		"firing energy" 12
-		"firing heat" 30
+		"reload" 14
+		"firing energy" .9
+		"firing heat" 8
 		"acceleration" 1.2
 		"drag" .1
 		"turn" 3.3
 		"homing" 4
-		"shield damage" 40
-		"hull damage" 85
+		"shield damage" 175
+		"hull damage" 400
 		"hit force" 3
-		"missile strength" 25
-		"burst count" 20
-		"burst reload" 6
+		"missile strength" 41
+		"burst count" 15
+		"burst reload" 7.5
 		"tracking" .9
 		"optical tracking" .9
-		"piercing" 0.25
+		"piercing" 0.1
 	description "The Needler fires energized, biological shards of crystal that shatter on impact, wreaking massive havoc upon the target. They are semi-sentient and have guiding abilities."
 
 	
@@ -380,10 +379,10 @@ outfit "Turreted Needler"
 	cost 2000000
 	thumbnail "outfit/needlerturret"
 	"mass" 24
-	"outfit space" -30
-	"weapon capacity" -30
+	"outfit space" -39
+	"weapon capacity" -39
 	"turret mounts" -1
-	"needle capacity" 600
+	"needle capacity" 750
 	"required crew" 1
 	weapon
 		sprite "projectile/needle"
@@ -394,23 +393,23 @@ outfit "Turreted Needler"
 		"inaccuracy" 15
 		"velocity" 13
 		"lifetime" 900
-		"reload" 12
-		"firing energy" 12
-		"firing heat" 30
+		"reload" 14
+		"firing energy" .9
+		"firing heat" 8
 		"acceleration" 1.2
 		"drag" .1
 		"turn" 3.3
 		"homing" 4
-		"shield damage" 40
-		"hull damage" 85
+		"shield damage" 175
+		"hull damage" 400
 		"hit force" 3
-		"missile strength" 25
-		"burst count" 20
-		"burst reload" 6
+		"missile strength" 41
+		"burst count" 15
+		"burst reload" 7.5
 		"tracking" .9
 		"optical tracking" .9
-		"piercing" 0.25
-	description "The Adamas put the Needler on a turret mount."
+		"piercing" 0.1
+	description "The Adamas put the Needler on a turret mount to improve the speed of the projectiles' contact."
 				
 
 outfit "Shatterer"
