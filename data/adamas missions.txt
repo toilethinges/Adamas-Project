@@ -19,9 +19,10 @@ mission "Adamas Wormhole Opens"
 		"reputation: Syndicate" >= 1
 	on offer
 		event "andol wormhole opens"
-		event "small adamas outfitter chrysoprase" 70
+		event "small adamas outfitter chrysoprase" 60
+		event "large adamas outfitter chrysoprase" 120
 		event "dust wormhole opens" 30
-		event "cygni wisp opens" 25
+			fail
 		
 		
 mission "First Contact: Adamas"
