@@ -8,6 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+
 phrase "friendly adamas"
 	word
 		"We "
@@ -56,7 +57,8 @@ phrase "friendly adamas"
 	word
 		"."
 		"!"
-		
+
+
 phrase "hostile adamas"
 	word
 		"We "
@@ -108,11 +110,14 @@ phrase "hostile adamas"
 		"."
 		"!"
 
+
 phrase "adamas names"
 	word
 		"At"
 		"Fen"
 		"Ed"
+	word
+		" "
 	word
 		"Phest"
 		"Sudol"
@@ -121,6 +126,8 @@ phrase "adamas names"
 		"Andol"
 		"Antef"
 		"Ustef"
+	word
+		" "
 	word
 		"Thtleh"
 		"Thtleh'el"
@@ -137,6 +144,7 @@ phrase "adamas names"
 		"Thoelst'el"
 		"Steleh"
 		"Steleh'el"
+
 
 phrase "adamas names"
 	word
@@ -186,19 +194,22 @@ phrase "hostile nes'el thoelst"
 	word
 		"!"
 		"."
-		
+
+
 phrase "scavenger names"
 	word
-		"Tera "
-		"Fotadehi "
-		"Elat "
-		"Neos "
-		"Aldt "
-		"Thot "
-		"Bant "
-		"Cifr "
-		"Cahb "
-		"Sias "
+		"Tera"
+		"Fotadehi"
+		"Elat"
+		"Neos"
+		"Aldt"
+		"Thot"
+		"Bant"
+		"Cifr"
+		"Cahb"
+		"Sias"
+	word
+		" "
 	word
 		"Yarever"
 		"Yare"
@@ -219,46 +230,7 @@ phrase "scavenger names"
 		"Sahp"
 		"Posi"
 		"Posiver"
-		
+
+
 phrase "hostile scavenger"
-	word
-		"We "
-	word
-		"Scavengers "
-	word
-		"will "
-	word
-		"assemble "
-		"converge "
-		"rally "
-	word
-		"upon "
-		"near "
-		"above "
-		"around "
-	word
-		"your "
-	word
-		"wreckage "
-		"wreck "
-		"ruin "
-		"derelict "
-		"debris "
-	word
-		"and "
-	word
-		"strip "
-		"loot "
-		"pirate "
-		"remove "
-		"take "
-	word
-		"your "
-	word
-		"valuables"
-		"systems"
-		"weapons"
-		"engines"
-	word
-		"!"
-		"."
+	word "placeholder"

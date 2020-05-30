@@ -79,7 +79,7 @@ outfit "Anti-Personnel Battlesuit"
 	category "Hand to Hand"
 	cost 1750000
 	thumbnail "outfit/battlesuit"
-	"capture attack" 3
+	"capture attack" 3.4
 	description "The Adamas Anti-Personnel Battlesuit is made for clearing ships of any hostile lifeforms without endangering any allies. However, they come with a high price tag."
 	
 	
@@ -87,7 +87,7 @@ outfit "Interior Autoturret"
 	category "Hand to Hand"
 	cost 100000
 	thumbnail "outfit/autoturret"
-	"capture defense" 85
+	"capture defense" 65
 	description "Adamas Interior Autoturrets are miniaturized turrets made to protect the inside of a ship from boarders."
 	
 	

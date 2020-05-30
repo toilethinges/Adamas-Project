@@ -8,9 +8,11 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+
 galaxy "Scavenger Galaxy"
 	pos -12000 36000
 	sprite ui/scavengergalaxy
+
 
 system "Aldt Bant"
 	pos -12112 36064.5
@@ -66,6 +68,7 @@ system "Aldt Bant"
 			distance 536
 			period 36.3667
 
+
 system "Badi Bant"
 	pos -12163 35905.5
 	government Scavenger
@@ -113,6 +116,7 @@ system "Badi Bant"
 			sprite planet/desert4
 			distance 499
 			period 47.6238
+
 
 system "Bant Dehi"
 	pos -11980 36128.5
@@ -172,6 +176,7 @@ system "Bant Dehi"
 			distance 367
 			period 24.7968
 
+
 system "Bant Hela"
 	pos -12003 35901.5
 	government Scavenger
@@ -230,6 +235,7 @@ system "Bant Hela"
 			distance 630
 			period 52.1541
 
+
 system "Bant Heta"
 	pos -11924 35886.5
 	government Scavenger
@@ -281,6 +287,7 @@ system "Bant Heta"
 			distance 460
 			period 51.9319
 
+
 system "Bant Peta"
 	pos -12080 35937.5
 	government Scavenger
@@ -328,6 +335,7 @@ system "Bant Peta"
 			sprite planet/europa
 			distance 425
 			period 22.3794
+
 
 system "Bant Tera"
 	pos -12089 35997.5
@@ -378,6 +386,7 @@ system "Bant Tera"
 			distance 379
 			period 19.3796
 
+
 system "Bant Tris"
 	pos -12012 36058.5
 	government Scavenger
@@ -426,6 +435,7 @@ system "Bant Tris"
 			distance 197
 			period 16.7538
 
+
 system "Bant Unne"
 	pos -11897 36120.5
 	government Scavenger
@@ -473,6 +483,7 @@ system "Bant Unne"
 		distance 2090.29
 		period 1529.08
 
+
 system Blok
 	pos -11940 36052.5
 	government Scavenger
@@ -515,6 +526,7 @@ system Blok
 		distance 2411.03
 		period 1049.74
 
+
 system Davair
 	pos -11889 36007.5
 	government Scavenger
@@ -555,6 +567,7 @@ system Davair
 			sprite planet/dust7
 			distance 233
 			period 14.4841
+
 
 system "Guta Bant"
 	pos -12089 35881.5
@@ -600,6 +613,7 @@ system "Guta Bant"
 			sprite planet/desert4
 			distance 359
 			period 22.4347
+
 
 system "Huma Stos"
 	pos -11927 35944.5
@@ -650,6 +664,7 @@ system "Huma Stos"
 			distance 204
 			period 12.4485
 
+
 system Mare
 	pos -11963 36173
 	government Scavenger
@@ -696,6 +711,7 @@ system Mare
 			sprite planet/rock0
 			distance 501
 			period 59.0274
+
 
 system "Tera Obah"
 	pos -11908 35836.5
@@ -745,6 +761,7 @@ system "Tera Obah"
 			distance 557
 			period 38.5247
 
+
 system Tiroir
 	pos -11846 36034.5
 	government Scavenger
@@ -787,10 +804,11 @@ system Tiroir
 			distance 271
 			period 14.8355
 
+
 planet "Meto Obah"
 	attributes scavenger "scavenger station"
 	landscape land/station1scav
-	description `Meto Obah is the Scavengers' only inhabited stellar object, a roughly repainted and remodeled Adamas agricultural station that they captured and somehow moved here. The Scavengers have pieced together rough agricultural automatons so that they don't have to do the work themselves, and, as with all Scavengers, nothing very productive goes on here other than the automatons producing food.`
+	description `Meto Obah is the Scavengers' only inhabited stellar object, a roughly repainted and remodeled Adamas agricultural station that they captured and somehow moved here. The Scavengers have pieced together rough agricultural automatons so that they don't have to do the work themselves, and as you expect from Scavengers, nothing else particularly productive happens here.`
 	spaceport `The interior of the station is almost exactly identical to that of other Adamas-made stations, filled with residential and agricultural areas, except that the areas normally occupied by recyclers are taken up by storage rooms holding stolen equipment. As you walk by them, the Scavengers look at you distrustfully, and sometimes make strange hand gestures.`
 	"required reputation" 100
 	bribe 0

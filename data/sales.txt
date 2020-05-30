@@ -8,16 +8,19 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+
 shipyard "Adamas Basics"
 	"Vitreus"
 	"Shard"
 	"Blaze"
 	"Amber"
-	
+
+
 shipyard "Adamas Colossal"
 	"Colossus"
 	"Vault"
-	
+
+
 outfitter "Small Adamas"
 	"Adamas Onyx Thruster"
 	"Adamas Onyx Steering"
@@ -26,7 +29,8 @@ outfitter "Small Adamas"
 	"Needle Shard"
 	"Mass Expansion"
 	"Miniature Heat Disperser"
-	
+
+
 outfitter "Adamas Colossal"
 	"Adamas Ruby Core"
 	"Onyx Reverse Thruster"
@@ -46,10 +50,12 @@ outfitter "Adamas Colossal"
 	"Turreted Needler"
 	"Massive Heat Disperser"
 	"Ruby Surveyor"
-	
+
+
 outfitter "Local Map"
 	"Local Map"
-	
+
+
 outfitter "Special Outfits"
 	"Adamas Onyx Thruster"
 	"Adamas Onyx Steering"
@@ -76,7 +82,8 @@ outfitter "Special Outfits"
 	"Turreted Needler"
 	"Massive Heat Disperser"
 	"Ruby Surveyor"
-	
+
+
 shipyard "Alien Ships"
 	"Vitreus"
 	"Shard"
@@ -85,7 +92,8 @@ shipyard "Alien Ships"
 	"Blaze"
 	"Amber"
 	"Scrapper"
-	
+
+
 shipyard "modships"
 	"Vitreus"
 	"Shard"
@@ -94,6 +102,7 @@ shipyard "modships"
 	"Blaze"
 	"Amber"
 	"Scrapper"
+
 
 outfitter "modoutfits"
 	"Adamas Onyx Thruster"
@@ -121,4 +130,3 @@ outfitter "modoutfits"
 	"Turreted Needler"
 	"Massive Heat Disperser"
 	"Ruby Surveyor"
-

@@ -7,20 +7,18 @@
 # The Adamas Project is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-				
+
+
 mission "Adamas Wormhole Opens"
 	name "Investigate wormhole"
 	invisible
-	minor
 	description "Opens the Adamas wormhole - you shouldn't be seeing this."
-	waypoint "At Andol"
 	destination "Maker"
 	to offer
 		has "kestrel available"
 		"reputation: Syndicate" >= 1
 	on offer
-		event "at andol wormhole opens"
-		require "Jump Drive"
+		event "andol wormhole opens"
 		fail
 		
 		
@@ -33,4 +31,4 @@ mission "First Contact: Adamas"
 			`This station is filled with a strange kind of humanoid alien. They are of all different sizes, but all closely resemble humans, with one major difference: they are made of a metallic substance with strange, multicolored crystals running through them. As soon as you land, a very tall, thin alien with pronounced ribs moves quickly to you.`
 			`	"On fen tlagn," it says, in a high, metallic voice, similar to the voice of the old human androids, before they were banned. "On fen kthest?" Seeing that it is making no progress in communicating with you, it shakes its head and says emphatically, "Quadol Nes'el Thoest," then walks away.`
 				decline
-				
+		event "small adamas outfitter chrysoprase" 120

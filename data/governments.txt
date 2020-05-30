@@ -8,6 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+
 government "Adamas"
 	swizzle 3
 	color .78 .99 .54
@@ -19,7 +20,8 @@ government "Adamas"
 	"bribe" 0
 	"friendly hail" "friendly adamas"
 	"hostile hail" "hostile adamas"
-	
+
+
 government "Nes'el Thoelst"
 	swizzle 6
 	"player reputation" -10
@@ -29,7 +31,8 @@ government "Nes'el Thoelst"
 		"Korath" .01
 	"bribe" 0
 	"hostile hail" "hostile nes'el thoelst"
-	
+
+
 government "Scavenger"
 	swizzle 1
 	color .0 .0 .0
@@ -45,5 +48,7 @@ government "Scavenger"
 		"Adamas" -.01
 		"Nes'el Thoelst" -.01
 	"player reputation" -1000
+	"crew attack" 2.4
+	"crew defense" 1.2
 	"bribe" 0
 	"hostile hail" "hostile scavenger"
