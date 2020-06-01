@@ -37,6 +37,7 @@ government "Scavenger"
 	swizzle 1
 	color .0 .0 .0
 	language "Scavenger"
+	"capture defense" .5
 	"penalty for"
 		assist 0
 		disable 0

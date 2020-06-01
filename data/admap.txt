@@ -18,8 +18,8 @@ system "At Andol"
 	asteroids "small metal" 9 2.1216
 	asteroids "medium metal" 22 2.5272
 	asteroids "large metal" 66 3.432
-	fleet "Scavenger (Adamas)" 7000
-	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 14000
+	fleet "Scavenger (Adamas)" 5000
+	fleet "Scavenger ((Quarg, Ultimate), (Adamas))" 10000
 	object
 		sprite star/nova
 		period 10
@@ -73,11 +73,6 @@ system "Exasir Sora"
 			sprite planet/rock7
 			distance 318
 			period 18.7033
-	object "Reminder Vortex"
-		sprite planet/wormhole
-		distance 1838.67
-		period 1762.95
-		offset 359.073
 		object
 			sprite planet/dust0
 			distance 211
@@ -726,4 +721,3 @@ planet "Remembrance Vortex"
 	landscape ""
 	description ""
 	spaceport ""
-
