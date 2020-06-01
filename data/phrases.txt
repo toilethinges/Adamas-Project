@@ -233,3 +233,4 @@ phrase "scavenger names"
 
 
 phrase "hostile scavenger"
+	word "placeholder"

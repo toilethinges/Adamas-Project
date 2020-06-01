@@ -698,6 +698,7 @@ system Mare
 		sprite planet/wormhole
 		distance 1838.67
 		period 1762.95
+		offset 359.073
 		object
 			sprite planet/dust0
 			distance 211
